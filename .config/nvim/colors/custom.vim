@@ -55,6 +55,7 @@ hi cStatement	ctermfg=3	ctermbg=NONE	cterm=NONE
 " Cpp
 "
 hi cppAccess		ctermfg=3	ctermbg=NONE	cterm=NONE
+hi cppCast			ctermfg=3	ctermbg=NONE	cterm=NONE
 hi cppExceptions	ctermfg=3	ctermbg=NONE	cterm=NONE
 
 "
