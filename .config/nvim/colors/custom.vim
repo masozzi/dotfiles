@@ -77,6 +77,11 @@ hi pythonTripleQuotes	ctermfg=0	ctermbg=NONE	cterm=NONE
 hi pythonOperator		ctermfg=3	ctermbg=NONE	cterm=NONE
 
 "
+" SSH Config
+"
+hi sshconfigKeyword		ctermfg=3	ctermbg=NONE	cterm=NONE
+
+"
 " Vim
 "
 hi vimGroup			ctermfg=2	ctermbg=NONE	cterm=NONE
