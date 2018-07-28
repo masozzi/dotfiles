@@ -177,9 +177,8 @@ border pixel 2
 default_floating_border	none
 
 smart_gaps	off
-gaps		20
-gaps inner	20
-gaps outer	10
+gaps inner	10
+gaps outer	20
 
 focus_follows_mouse	no
 
