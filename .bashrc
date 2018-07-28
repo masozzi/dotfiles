@@ -24,7 +24,7 @@ alias sudo='sudo '
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 
 # Git prompt
-[[ -f ~/.bin/git-prompt.sh ]] && source ~/.bin/git-prompt.sh
+[[ -f /usr/share/git/completion/git-prompt.sh ]] && source /usr/share/git/completion/git-prompt.sh
 
 PS1="${GREEN}[\u@\h \W${RED}\[\$(__git_ps1 ' (%s)')\]${GREEN}]
 ${YELLOW}~ ${BLUE}>${MAGENTA}>${RESET} "
