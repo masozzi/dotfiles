@@ -64,6 +64,17 @@ hi cppExceptions	ctermfg=3	ctermbg=NONE	cterm=NONE
 hi gitcommitSummary		ctermfg=3	ctermbg=NONE	cterm=NONE
 
 "
+" Make
+"
+hi makeStatement		ctermfg=3	ctermbg=NONE	cterm=NONE
+hi makeSpecTarget		ctermfg=3	ctermbg=NONE	cterm=NONE
+
+"
+" Muttrc
+"
+hi muttrcCommand		ctermfg=3	ctermbg=NONE	cterm=NONE
+
+"
 " NerdTree
 "
 hi NERDTreeCWD	ctermfg=3	ctermbg=NONE	cterm=NONE
