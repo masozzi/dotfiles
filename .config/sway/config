@@ -173,7 +173,7 @@ bindsym $mod+r mode "resize"
 #
 
 default_border pixel 2
-border pixel 2
+# border pixel 2
 default_floating_border	none
 
 smart_gaps	off
@@ -182,10 +182,10 @@ gaps outer	20
 
 focus_follows_mouse	no
 
-client.background			#020C0D
+# client.background			#020C0D
 client.focused				#020C0D #020C0D #020C0D #020C0D #020C0D
 client.focused_inactive		#020C0D #020C0D #020C0D #020C0D #020C0D
-client.placeholder			#020C0D #020C0D #020C0D #020C0D #020C0D
+# client.placeholder			#020C0D #020C0D #020C0D #020C0D #020C0D
 client.unfocused			#020C0D #020C0D #020C0D #020C0D #020C0D
 client.urgent				#020C0D #020C0D #020C0D #020C0D #020C0D
 
@@ -203,7 +203,7 @@ bindsym XF86AudioLowerVolume exec amixer sset Master 5%-
 bar {
     position top
     font "xos4 Terminus"
-    binding_mode_indicator no
+#   binding_mode_indicator no
 	separator_symbol " "
 
     colors {
