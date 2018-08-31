@@ -1,0 +1,12 @@
+max-visible=3
+sort=-time
+anchor=top-right
+
+font=xos4 terminus
+text-color=#448787
+background-color=#093439
+padding=30
+border-size=0
+markup=1
+default-timeout=8000
+ignore-timeout=1
