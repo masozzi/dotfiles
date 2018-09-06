@@ -1,3 +1,5 @@
+format=%s\n%b
+
 max-visible=3
 sort=-time
 anchor=top-right
