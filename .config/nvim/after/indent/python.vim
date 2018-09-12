@@ -1,6 +1,8 @@
-setlocal noexpandtab
+" want to preserve other files indentation
 setlocal preserveindent
 setlocal copyindent
-setlocal softtabstop=0
+
 setlocal tabstop=8
-setlocal shiftwidth=8
+setlocal expandtab
+setlocal shiftwidth=4
+setlocal softtabstop=4
