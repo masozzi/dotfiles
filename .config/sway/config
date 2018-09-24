@@ -5,6 +5,7 @@
 # Read `man 5 sway` for a complete reference.
 
 exec_always xrdb /home/teo/.config/resources/.Xresources
+exec_always mako
 # Start mega client
 # exec_always megasync
 
