@@ -71,6 +71,14 @@ hi makeStatement		ctermfg=3	ctermbg=NONE	cterm=NONE
 hi makeSpecTarget		ctermfg=3	ctermbg=NONE	cterm=NONE
 
 "
+" Markdown
+"
+hi markdownListMarker		ctermfg=3	ctermbg=NONE	cterm=NONE
+hi markdownCode				ctermfg=6	ctermbg=8		cterm=NONE
+hi markdownCodeBlock		ctermfg=6	ctermbg=8		cterm=NONE
+hi markdownCodeDelimiter	ctermfg=6	ctermbg=NONE	cterm=NONE
+
+"
 " Muttrc
 "
 hi muttrcCommand		ctermfg=3	ctermbg=NONE	cterm=NONE
