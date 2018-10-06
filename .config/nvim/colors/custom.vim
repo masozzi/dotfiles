@@ -65,6 +65,11 @@ hi cppExceptions	ctermfg=3	ctermbg=NONE	cterm=NONE
 hi gitcommitSummary		ctermfg=3	ctermbg=NONE	cterm=NONE
 
 "
+" Json
+"
+hi jsonKeyword		ctermfg=3	ctermbg=NONE	cterm=NONE
+
+"
 " Make
 "
 hi makeStatement		ctermfg=3	ctermbg=NONE	cterm=NONE
