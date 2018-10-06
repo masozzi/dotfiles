@@ -109,3 +109,8 @@ set statusline+=\ Coll " Simple text
 set statusline+=\ %c\  " Column number
 set statusline+=%#StatusLinePrimary#
 set statusline+=\ %{strlen(&filetype)>0?toupper(&filetype):'NONE'}\  " File type
+
+"
+" General
+"
+set completeopt=menu
