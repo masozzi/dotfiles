@@ -18,6 +18,8 @@ Plugin 'junegunn/goyo.vim'
 Plugin 'alvan/vim-closetag'
 " YouCompleteMe
 Plugin 'Valloric/YouCompleteMe'
+" Cool
+Plugin 'romainl/vim-cool'
 
 call vundle#end()
 filetype on 
