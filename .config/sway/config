@@ -172,10 +172,8 @@ bindsym $mod+r mode "resize"
 ##################
 # Graphics
 #
-
 default_border pixel 2
-# border pixel 2
-default_floating_border	none
+default_floating_border	pixel 2
 
 smart_gaps	off
 gaps inner	10
@@ -183,14 +181,11 @@ gaps outer	20
 
 focus_follows_mouse	no
 
-# client.background			#020C0D
-client.focused				#020C0D #020C0D #020C0D #020C0D #020C0D
+client.focused				#093439 #020C0D #020C0D #020C0D #093439
 client.focused_inactive		#020C0D #020C0D #020C0D #020C0D #020C0D
-# client.placeholder			#020C0D #020C0D #020C0D #020C0D #020C0D
 client.unfocused			#020C0D #020C0D #020C0D #020C0D #020C0D
-client.urgent				#020C0D #020C0D #020C0D #020C0D #020C0D
+client.urgent				#CC6666 #020C0D #020C0D #020C0D #CC6666
 
-#
 #################
 # Audio
 #
