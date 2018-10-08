@@ -60,9 +60,19 @@ hi cppCast			ctermfg=3	ctermbg=NONE	cterm=NONE
 hi cppExceptions	ctermfg=3	ctermbg=NONE	cterm=NONE
 
 "
+" Css
+"
+hi cssTagName		ctermfg=3	ctermbg=NONE	cterm=NONE
+
+"
 " Git
 "
 hi gitcommitSummary		ctermfg=3	ctermbg=NONE	cterm=NONE
+
+"
+" Html
+"
+hi htmlTagName		ctermfg=3	ctermbg=NONE	cterm=NONE
 
 "
 " Json
