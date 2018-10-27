@@ -1,0 +1,27 @@
+{
+    "layer": "top",
+    "position": "top",
+    "height": 25,
+    "modules-left": ["sway/workspaces"],
+    "modules-center": ["clock"],
+    "modules-right": ["network", "cpu", "memory"],
+    "sway/workspaces": {
+        "disable-scroll": true,
+        "all-outputs": true,
+        "format": "{name}"
+    },
+    "clock": {
+    	"format": "{:%Y/%m/%d %H:%M}"
+    },
+    "cpu": {
+        "format": "CPU {}%"
+    },
+    "memory": {
+        "format": "MEM {}%"
+    },
+    "network": {
+        "interface": "enp3s0",
+        "format-ethernet": "{ifname}",
+        "format-disconnected": "Offline"
+    }
+}

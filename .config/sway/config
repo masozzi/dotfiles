@@ -6,6 +6,7 @@
 
 exec_always xrdb /home/teo/.config/resources/.Xresources
 exec_always mako
+exec waybar
 # Start mega client
 # exec_always megasync
 
@@ -196,17 +197,3 @@ bindsym XF86AudioLowerVolume exec amixer sset Master 5%-
 # Status Bar:
 #
 # Read `man 5 sway-bar` for more information about this section.
-bar {
-    position top
-    font "xos4 Terminus"
-#   binding_mode_indicator no
-	separator_symbol " "
-
-    colors {
-        statusline #B8C4BD
-        background #020C0D
-
-		focused_workspace	#093439 #093439 #448787
-        inactive_workspace	#05181B #05181B #448787
-    }
-}
