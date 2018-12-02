@@ -1,0 +1,46 @@
+*.foreground:   #c1b7b7
+*.background:   #020c0d
+*.cursorColor:  #c1b7b7
+
+*.color0:       #093439
+*.color8:       #05181b
+*.color1:       #cc6666
+*.color9:       #cc6666
+*.color2:       #62c67c
+*.color10:      #62c67c
+*.color3:       #edbc77
+*.color11:      #edbc77
+*.color4:       #4f809e
+*.color12:      #4f809e
+*.color5:       #85678f
+*.color13:      #85678f
+*.color6:       #448787
+*.color14:      #448787
+*.color7:       #c1b7b7
+*.color15:      #c1b7b7
+
+URxvt.cursorBlink:	0
+URxvt.letterSpace:	0
+URxvt.url-launcher:	/bin/qutebrowser
+URxvt.font:			xft:xos4 Terminus:size=11
+URxvt.boldFont:		xft:xos4 Terminus:size=11
+
+URxvt.lineSpace:		0
+URxvt.letterSpace:		0
+URxvt.scrollBar:		false
+URxvt.internalBorder:	30
+URxvt.cursorUnderline:	false
+URxvt.titleBar:			false
+URxvt.intensityStyles:	false
+Urxvt*perl-lib:			/usr/lib/urxvt/perl/
+Urxvt*perl-ext:			default,matcher
+Urxvt*url-launcher:		/usr/bin/chromium-browser
+URxvt.underlineURLs:	true
+
+Xft.dpi:		96
+Xft.antialias:	true
+Xft.rgba:		rgb
+Xft.hinting:	true
+Xft.hintstyle:	hintslight
+Xft.autohint:	false
+Xft.lcdfilter:	lcddefault
