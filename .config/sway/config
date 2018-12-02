@@ -4,12 +4,6 @@
 #
 # Read `man 5 sway` for a complete reference.
 
-exec_always xrdb /home/teo/.config/resources/.Xresources
-exec_always mako
-exec waybar
-# Start mega client
-# exec_always megasync
-
 ### Variables
 #
 # Logo key. Use Mod1 for Alt.
@@ -23,12 +17,25 @@ set $right Right
 set $term urxvt
 # Your preferred application launcher
 set $menu bemenu-run --wrap -l 10 -i --fn "xos4 Terminus" 10
+set $wallpaper /home/teo/Pictures/.wallpaper/wallpaper.jpg
+
+
+exec_always xrdb /home/teo/.config/resources/.Xresources
+exec_always mako
+exec waybar
+exec swayidle \
+	timeout 600 'swaymsg "output * dpms off"' \
+	resume 'swaymsg "output * dpms on"' \
+	before-sleep 'swaylock --image $wallpaper --scaling fill'
+# Start mega client
+# exec_always megasync
+
 
 ### Output configuration
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
 # output * bg /home/teo/Pictures/.wallpaper/wallpaper.jpg fill
-output * bg /home/teo/Pictures/.wallpaper/wallpaper.jpg fill
+output * bg $wallpaper fill
 
 #
 # Example configuration:
