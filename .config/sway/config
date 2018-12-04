@@ -18,15 +18,16 @@ set $term urxvt
 # Your preferred application launcher
 set $menu bemenu-run --wrap -l 10 -i --fn "xos4 Terminus" 10
 set $wallpaper /home/teo/Pictures/.wallpaper/wallpaper.jpg
+set $lockscreen swaylock --image $wallpaper --scaling fill
 
 
 exec_always xrdb /home/teo/.config/resources/.Xresources
 exec_always mako
 exec waybar
 exec swayidle \
+	timeout 300 'swaylock --image /home/teo/Pictures/.wallpaper/wallpaper.jpg --scaling fill' \
 	timeout 600 'swaymsg "output * dpms off"' \
-	resume 'swaymsg "output * dpms on"' \
-	before-sleep 'swaylock --image $wallpaper --scaling fill'
+	resume 'swaymsg "output * dpms on"'
 # Start mega client
 # exec_always megasync
 
@@ -88,6 +89,9 @@ input "4152:4969:SteelSeries_Sensei_Raw_Gaming_Mouse" {
 
     # exit sway (logs you out of your wayland session)
     bindsym $mod+Shift+e exit
+    
+    # lock screen
+    bindsym $mod+l exec $lockscreen
 #
 # Moving around:
 #
@@ -95,8 +99,7 @@ input "4152:4969:SteelSeries_Sensei_Raw_Gaming_Mouse" {
     bindsym $mod+$left focus left
     bindsym $mod+$down focus down
     bindsym $mod+$up focus up
-    bindsym $mod+$right focus right
-
+    bindsym $mod+$right focus right 
     # _move_ the focused window with the same, but add Shift
     bindsym $mod+Shift+$left move left
     bindsym $mod+Shift+$down move down
@@ -193,8 +196,3 @@ client.urgent				#CC6666 #020C0D #020C0D #020C0D #CC6666
 #
 bindsym XF86AudioRaiseVolume exec amixer sset Master 5%+
 bindsym XF86AudioLowerVolume exec amixer sset Master 5%-
-
-#
-# Status Bar:
-#
-# Read `man 5 sway-bar` for more information about this section.
