@@ -19,14 +19,14 @@ set $term env WAYLAND_DISPLAY= alacritty
 # Your preferred application launcher
 set $menu bemenu-run --wrap -l 10 -i --fn "xos4 Terminus" 10
 set $wallpaper /home/teo/Pictures/.wallpaper/wallpaper.jpg
-set $lockscreen swaylock --image $wallpaper --scaling fill
-
+set $wallpaperLock /home/teo/Pictures/.wallpaper/wallpaper-locked.jpg
+set $lockscreen swaylock --image $wallpaperLock --scaling fill
 
 exec_always xrdb /home/teo/.config/resources/.Xresources
 exec_always mako
 exec waybar
 exec swayidle \
-	timeout 300 'swaylock --image /home/teo/Pictures/.wallpaper/wallpaper.jpg --scaling fill' \
+	timeout 300 'swaylock --image /home/teo/Pictures/.wallpaper/wallpaper-locked.jpg --scaling fill' \
 	timeout 600 'swaymsg "output * dpms off"' \
 	resume 'swaymsg "output * dpms on"'
 # Start mega client
