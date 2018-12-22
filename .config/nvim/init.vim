@@ -17,7 +17,7 @@ Plugin 'junegunn/goyo.vim'
 " Closetag
 Plugin 'alvan/vim-closetag'
 " YouCompleteMe
-Plugin 'Valloric/YouCompleteMe'
+"Plugin 'Valloric/YouCompleteMe'
 " Cool
 Plugin 'romainl/vim-cool'
 
