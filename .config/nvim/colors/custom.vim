@@ -47,10 +47,14 @@ hi ColorColumn				ctermbg=8		cterm=NONE
 "
 " Must change the syntax for that
 " 'cause this bitch set it as transparent
-hi cParen		ctermfg=2	ctermbg=NONE	cterm=NONE
-hi cLabel		ctermfg=3	ctermbg=NONE	cterm=NONE
-hi cOperator	ctermfg=3	ctermbg=NONE	cterm=NONE
-hi cStatement	ctermfg=3	ctermbg=NONE	cterm=NONE
+hi cInclude			ctermfg=1	ctermbg=NONE	cterm=NONE
+hi cDefine			ctermfg=1	ctermbg=NONE	cterm=NONE
+hi cParen			ctermfg=2	ctermbg=NONE	cterm=NONE
+hi cLabel			ctermfg=3	ctermbg=NONE	cterm=NONE
+hi cOperator		ctermfg=3	ctermbg=NONE	cterm=NONE
+hi cStatement		ctermfg=3	ctermbg=NONE	cterm=NONE
+hi cPreCondit		ctermfg=1	ctermbg=NONE	cterm=NONE
+hi cPreConditMatch	ctermfg=1	ctermbg=NONE	cterm=NONE
 
 "
 " Cpp
