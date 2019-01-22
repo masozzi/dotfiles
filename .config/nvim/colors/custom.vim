@@ -55,6 +55,7 @@ hi cOperator		ctermfg=3	ctermbg=NONE	cterm=NONE
 hi cStatement		ctermfg=3	ctermbg=NONE	cterm=NONE
 hi cPreCondit		ctermfg=1	ctermbg=NONE	cterm=NONE
 hi cPreConditMatch	ctermfg=1	ctermbg=NONE	cterm=NONE
+hi cPreProc			ctermfg=1	ctermbg=NONE	cterm=NONE
 
 "
 " Cpp
