@@ -22,7 +22,7 @@ hi def link pythonDocstring pythonTripleQuotes
 "
 " Visual mode
 "
-hi Visual		ctermfg=0
+hi Visual		ctermfg=0	ctermbg=7	cterm=NONE
 
 "
 " Statusline
@@ -112,9 +112,12 @@ hi NERDTreeCWD	ctermfg=3	ctermbg=NONE	cterm=NONE
 " Python
 "
 hi pythonStatement		ctermfg=3	ctermbg=NONE	cterm=NONE
+hi pythonString			ctermfg=1	ctermbg=NONE	cterm=NONE
+hi pythonQuotes			ctermfg=1	ctermbg=NONE	cterm=NONE
 hi pythonException		ctermfg=3	ctermbg=NONE	cterm=NONE
 hi pythonTripleQuotes	ctermfg=0	ctermbg=NONE	cterm=NONE
 hi pythonOperator		ctermfg=3	ctermbg=NONE	cterm=NONE
+hi pythonInclude		ctermfg=5	ctermbg=NONE	cterm=NONE
 
 "
 " Sh
@@ -125,6 +128,13 @@ hi shStatement		ctermfg=3	ctermbg=NONE cterm=NONE
 " SSH Config
 "
 hi sshconfigKeyword		ctermfg=3	ctermbg=NONE	cterm=NONE
+
+"
+" TabLine
+"
+hi TabLine			ctermfg=6 ctermbg=8		cterm=NONE
+hi TabLineFill		ctermfg=6 ctermbg=NONE	cterm=NONE
+hi TabLineSel		ctermfg=6 ctermbg=0		cterm=NONE
 
 "
 " Vim
