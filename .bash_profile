@@ -9,6 +9,9 @@ export PATH="$HOME/.cargo/bin:$PATH"
 export JAVA_HOME="/usr/lib/jvm/java-8-openjdk"
 export EDITOR="nvim"
 
+export CC="clang"
+export CXX="clang++"
+
 # To properly launch intellij idea
 export IDEA_JDK="/usr/lib/jvm/java-8-jdk"
 export _JAVA_AWT_WM_NONREPARENTING=1
