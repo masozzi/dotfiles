@@ -21,7 +21,7 @@ alias ll='ls -lA'
 alias vim='nvim'
 alias pacman='pacman --color=always'
 alias sudo='sudo '
-alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+alias dotfiles='/usr/bin/git --git-dir=$HOME/Documents/dotfiles/ --work-tree=$HOME'
 
 # Git prompt
 [[ -f /usr/share/git/completion/git-prompt.sh ]] && source /usr/share/git/completion/git-prompt.sh

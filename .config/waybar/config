@@ -20,7 +20,7 @@
         "format": "MEM {}%"
     },
     "network": {
-        "interface": "enp3s0",
+        "interface": "wlp5s0",
         "format-ethernet": "{ifname}",
         "format-disconnected": "Offline"
     }
