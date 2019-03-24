@@ -3,6 +3,7 @@
 #
 
 # Color
+BLACK="\[$(tput setaf 0)\]"
 RED="\[$(tput setaf 1)\]"
 GREEN="\[$(tput setaf 2)\]"
 YELLOW="\[$(tput setaf 3)\]"
@@ -26,6 +27,6 @@ alias dotfiles='/usr/bin/git --git-dir=$HOME/Documents/dotfiles/ --work-tree=$HO
 # Git prompt
 [[ -f /usr/share/git/completion/git-prompt.sh ]] && source /usr/share/git/completion/git-prompt.sh
 
-PS1="${GREEN}[\u@\h \W${RED}\[\$(__git_ps1 ' (%s)')\]${GREEN}]
+PS1="${GREEN}[\u@${GREEN}\h \w]${RED}\$(__git_ps1 '  %s')${GREEN}
 ${YELLOW}~ ${BLUE}>${MAGENTA}>${RESET} "
 PS2="${YELLOW}~ ${BLUE}>${MAGENTA}>${RESET} "
