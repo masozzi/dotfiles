@@ -26,9 +26,9 @@ exec_always xrdb /home/teo/.config/resources/.Xresources
 exec_always mako
 exec waybar
 exec swayidle \
-	timeout 300 'swaylock --image /home/teo/Pictures/.wallpaper/wallpaper-locked.jpg --scaling fill' \
-	timeout 600 'swaymsg "output * dpms off"' \
-	resume 'swaymsg "output * dpms on"'
+	timeout 300 'swaylock --image /home/teo/Pictures/.wallpaper/wallpaper-locked.jpg --scaling fill' 
+#	timeout 600 'swaymsg "output * dpms off"' \
+#	resume 'swaymsg "output * dpms on"'
 # Start mega client
 # exec_always megasync
 
