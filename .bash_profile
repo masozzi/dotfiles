@@ -8,6 +8,7 @@ export PATH="$HOME/.bin:$PATH"
 export PATH="$HOME/.cargo/bin:$PATH"
 export JAVA_HOME="/usr/lib/jvm/java-8-openjdk"
 export EDITOR="nvim"
+export GOPATH="$HOME/Documents/projects/go"
 
 export CC="clang"
 export CXX="clang++"
