@@ -4,7 +4,7 @@
     "height": 25,
     "modules-left": ["sway/workspaces"],
     "modules-center": ["clock"],
-    "modules-right": ["network", "cpu", "memory"],
+    "modules-right": ["idle_inhibitor", "pulseaudio", "network", "cpu", "memory"],
     "sway/workspaces": {
         "disable-scroll": true,
         "all-outputs": true,
@@ -23,5 +23,13 @@
         "interface": "wlp5s0",
         "format-ethernet": "{ifname}",
         "format-disconnected": "Offline"
-    }
+    },
+    "pulseaudio": {
+    	"format": "VOL: {volume}%",
+    	"format-mute": "VOL: MUTED"
+   	},
+   	"idle_inhibitor": {
+   		"format": "IDLE",
+   		"tooltip": false
+   	}
 }

@@ -1,29 +1,37 @@
 * {
-    border: none;
-    border-radius: 0;
-    font-family: "xos4 Terminus";
-    font-size: 14px;
+	border: none;
+	border-radius: 0;
+	font-family: "xos4 Terminus";
+	font-size: 14px;
 }
 
 window {
-    background: #020C0D;
-    border-bottom: none;
-    color: #448787;
+	background: #020C0D;
+	border-bottom: none;
+	color: #448787;
 }
 
 #workspaces button {
-    padding: 0 2px;
-    background: #05181B;
-    color: #448787;
+	padding: 0 2px;
+	background: #05181B;
+	color: #448787;
 }
 
 #workspaces button.focused {
-    background: #093434;
-    color: #448787;
+	background: #093434;
+	color: #448787;
 }
 
-#clock, #battery, #cpu, #memory, #network, #pulseaudio, #custom-spotify {
-    padding: 0 10px;
-    background-color: #05181B;
+#pulseaudio.mute {
+	background-color: #EDBC77;
 }
 
+#clock, #battery, #cpu, #memory, #network, #pulseaudio, #custom-spotify, #idle_inhibitor {
+	padding: 0 10px;
+	background-color: #05181B;
+}
+
+#idle_inhibitor.activated {
+	color: #05181B;
+	background-color: #EDBC67;
+}
