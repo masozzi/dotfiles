@@ -26,7 +26,7 @@ window {
 	background-color: #EDBC77;
 }
 
-#clock, #battery, #cpu, #memory, #network, #pulseaudio, #custom-spotify, #idle_inhibitor {
+#mode, #clock, #battery, #cpu, #memory, #network, #pulseaudio, #custom-spotify, #idle_inhibitor, #tray {
 	padding: 0 10px;
 	background-color: #05181B;
 }

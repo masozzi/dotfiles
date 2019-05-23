@@ -2,13 +2,23 @@
     "layer": "top",
     "position": "top",
     "height": 25,
-    "modules-left": ["sway/workspaces"],
+    "modules-left": ["sway/workspaces", "sway/mode"],
     "modules-center": ["clock"],
-    "modules-right": ["idle_inhibitor", "pulseaudio", "network", "cpu", "memory"],
+    "modules-right": ["tray", "idle_inhibitor", "pulseaudio", "network", "cpu", "memory"],
     "sway/workspaces": {
         "disable-scroll": true,
         "all-outputs": true,
-        "format": "{name}"
+        "format": "{name}",
+        "persistant_workspaces": {
+        	"1": [],
+        	"2": [],
+        	"3": [],
+        	"4": []
+        }
+    },
+    "sway/mode": {
+    	"format": "{}",
+    	"tooltip": false
     },
     "clock": {
     	"format": "{:%Y/%m/%d %H:%M}"
@@ -31,5 +41,9 @@
    	"idle_inhibitor": {
    		"format": "IDLE",
    		"tooltip": false
+   	},
+   	"tray": {
+   		"icon-size": 15,
+   		"spacing": 10
    	}
 }
