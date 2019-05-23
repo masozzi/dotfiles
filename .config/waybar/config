@@ -7,6 +7,7 @@
     "modules-right": ["tray", "idle_inhibitor", "pulseaudio", "network", "cpu", "memory"],
     "sway/workspaces": {
         "disable-scroll": true,
+        "disable-bar-scroll": true,
         "all-outputs": true,
         "format": "{name}",
         "persistant_workspaces": {
