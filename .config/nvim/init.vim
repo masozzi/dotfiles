@@ -20,6 +20,8 @@ Plugin 'alvan/vim-closetag'
 "Plugin 'Valloric/YouCompleteMe'
 " Cool
 Plugin 'romainl/vim-cool'
+" Editorconfig
+Plugin 'editorconfig/editorconfig-vim'
 
 call vundle#end()
 filetype on 
