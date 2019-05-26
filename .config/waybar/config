@@ -36,7 +36,7 @@
         "format-disconnected": "Offline"
     },
     "pulseaudio": {
-    	"format": "VOL: {volume}%",
+    	"format": "VOL {volume}%",
     	"format-mute": "VOL: MUTED"
    	},
    	"idle_inhibitor": {
