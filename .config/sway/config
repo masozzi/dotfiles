@@ -33,13 +33,22 @@ exec swayidle \
 #
 output * bg $wallpaper fill
 
-output DP-1 position 0 0
-output DP-1 transform 90 anticlockwise
-output DP-2 position 1080 450
+# Disable screen laptop when lid is closed
+bindswitch lid:on output eDP-1 disable
+bindswitch lid:off output eDP-1 enable
 
-input "4152:4969:SteelSeries_Sensei_Raw_Gaming_Mouse" {
+#
+# Example configuration:
+#
+output * bg $wallpaper fill
+
+input "1008:4504:HP_HP_USB_1000dpi_Laser_Mouse" {
 	accel_profile flat
 	pointer_accel -0.2
+}
+
+input "1739:33521:SYNA3071:00_06CB:82F1_Touchpad" {
+	natural_scroll enable
 }
 
 #

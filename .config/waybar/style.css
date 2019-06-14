@@ -34,6 +34,23 @@ window {
 	background-color: #082626;
 }
 
+#battery.charging {
+	background-color: #093434;
+}
+
+#battery.full {
+	background-color: #62C67C;
+	color: #020C0D;
+}
+
+#battery.warning {
+	background-color: #EDBC77;
+}
+
+#battery.critical {
+	background-color: #CC6666;
+}
+
 #idle_inhibitor.activated {
 	color: #082626;
 	background-color: #7C78C1;

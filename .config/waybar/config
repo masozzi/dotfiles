@@ -5,7 +5,7 @@
     "height": 25,
     "modules-left": ["sway/workspaces", "sway/mode"],
     "modules-center": ["clock"],
-    "modules-right": ["tray", "idle_inhibitor", "pulseaudio", "network", "cpu", "memory"],
+    "modules-right": ["tray", "idle_inhibitor", "pulseaudio", "network", "cpu", "memory", "battery"],
     "sway/workspaces": {
         "disable-scroll": true,
         "disable-bar-scroll": true,
@@ -15,7 +15,8 @@
         	"1": [],
         	"2": [],
         	"3": [],
-        	"4": []
+        	"4": [],
+        	"5": []
         }
     },
     "sway/mode": {
@@ -28,11 +29,21 @@
     "cpu": {
         "format": "CPU {}%"
     },
+    "battery": {
+    	"bat": "BAT0",
+    	"interval": 60,
+    	"states": {
+        	"warning": 30,
+        	"critical": 15
+    	},
+    	"format": "BAT {capacity}%",
+    	"max-length": 8
+	},
     "memory": {
         "format": "MEM {}%"
     },
     "network": {
-        "interface": "wlp5s0",
+        "interface": "enp0s31f6",
         "format-ethernet": "{ifname}",
         "format-disconnected": "Offline"
     },
