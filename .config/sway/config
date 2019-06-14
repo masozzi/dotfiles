@@ -123,6 +123,9 @@ bindsym XF86AudioLowerVolume exec amixer sset Master 5%-
 #
 # Graphics
 #
+font "xos4 terminus"
+title_align center
+
 # Borders
 default_border pixel 2
 default_floating_border	pixel 2
@@ -136,7 +139,7 @@ gaps outer	10
 focus_follows_mouse	no
 
 # Colors
-client.focused				#093439 #020C0D #020C0D #020C0D #093439
-client.focused_inactive		#020C0D #020C0D #020C0D #020C0D #020C0D
-client.unfocused			#020C0D #020C0D #020C0D #020C0D #020C0D
-client.urgent				#CC6666 #020C0D #020C0D #020C0D #CC6666
+client.focused				#093439 #093439 #448787 #020C0D #093439
+client.focused_inactive		#020C0D #020C0D #448787 #020C0D #020C0D
+client.unfocused			#020C0D #020C0D #448787 #020C0D #020C0D
+client.urgent				#CC6666 #CC6666 #448787 #020C0D #CC6666
