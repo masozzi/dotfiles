@@ -43,7 +43,7 @@ window {
 	color: #020C0D;
 }
 
-#battery.warning {
+#battery.warning:not(.charging) {
 	background-color: #EDBC77;
 }
 
