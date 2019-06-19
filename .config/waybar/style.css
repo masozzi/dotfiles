@@ -25,6 +25,11 @@ window {
 	color: #082626;
 }
 
+#workspaces button.urgent {
+	background: #CC6666;
+	color: #020C0D;
+}
+
 #pulseaudio.mute {
 	background-color: #7C78C1;
 }
