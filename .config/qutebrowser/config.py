@@ -28,7 +28,7 @@ colors = {
 # Tabs
 #
 c.tabs.favicons.scale = 1.6
-c.tabs.position = 'right'
+c.tabs.position = 'bottom'
 c.tabs.width = 46
 c.tabs.indicator.width = 0
 c.tabs.title.format = ''
@@ -36,7 +36,7 @@ c.tabs.title.format_pinned = ''
 c.tabs.title.alignment = 'center'
 c.tabs.padding = {'top': 10, 'left': 13, 'bottom': 10, 'right': 5}
 c.tabs.indicator.padding = {'top': 0, 'left': 0, 'bottom': 0, 'right': 0}
-c.tabs.wrap = False
+c.tabs.wrap = True
 c.tabs.new_position.related = 'next'
 c.tabs.new_position.unrelated = 'last'
 
