@@ -92,19 +92,19 @@ tabspaces: 4
 font:
   # Normal (roman) font face
   normal:
-    family: "xos4 terminus"
+    family: "xos4 Terminus"
     # The `style` can be specified to pick a specific face.
     style: Regular
 
   # Bold font face
   bold:
-    family: "xos4 terminus"
+    family: "xos4 Terminus"
     # The `style` can be specified to pick a specific face.
     style: Regular
 
   # Italic font face
   italic:
-    family: "xos4 terminus"
+    family: "xos4 Terminus"
     # The `style` can be specified to pick a specific face.
     style: Regular
 
@@ -155,7 +155,7 @@ draw_bold_text_with_bright_colors: true
 colors:
   # Default colors
   primary:
-    background: '0x020C0D'
+    background: '0x030D0D'
     foreground: '0xC1B7B7'
 
   # Colors the cursor will use if `custom_cursor_colors` is true
@@ -165,36 +165,36 @@ colors:
 
   # Normal colors
   normal:
-    black:   '0x093439'
-    red:     '0xCC6666'
-    green:   '0x62C67C'
+    black:   '0x082626'
+    red:     '0xCC6690'
+    green:   '0x62C68F'
     yellow:  '0xEDBC77'
-    blue:    '0x4F809E'
-    magenta: '0x85678F'
-    cyan:    '0x448787'
+    blue:    '0x146666'
+    magenta: '0x7C78C1'
+    cyan:    '0x60A6A6'
     white:   '0xC1B7B7'
 
   # Bright colors
   bright:
-    black:   '0x05181B'
-    red:     '0xCC6666'
-    green:   '0x62C67C'
+    black:   '0x082626'
+    red:     '0xCC6690'
+    green:   '0x62C68F'
     yellow:  '0xEDBC77'
-    blue:    '0x4F809E'
-    magenta: '0x85678F'
-    cyan:    '0x448787'
+    blue:    '0x146666'
+    magenta: '0x7C78C1'
+    cyan:    '0x60A6A6'
     white:   '0xC1B7B7'
 
   # Dim colors (Optional)
   dim:
-    black:   '0x333333'
-    red:     '0xf2777a'
-    green:   '0x99cc99'
-    yellow:  '0xffcc66'
-    blue:    '0x6699cc'
-    magenta: '0xcc99cc'
-    cyan:    '0x66cccc'
-    white:   '0xdddddd'
+    black:   '0x082626'
+    red:     '0xCC6690'
+    green:   '0x62C68F'
+    yellow:  '0xEDBC77'
+    blue:    '0x146666'
+    magenta: '0x7C78C1'
+    cyan:    '0x60A6A6'
+    white:   '0xC1B7B7'
 
 # Visual Bell
 #

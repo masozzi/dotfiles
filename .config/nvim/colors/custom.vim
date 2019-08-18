@@ -28,7 +28,7 @@ hi Visual		ctermfg=0	ctermbg=7	cterm=NONE
 " Statusline
 "
 hi StatusLinePrimary	ctermfg=6	ctermbg=0		cterm=NONE
-hi StatusLineSecondary	ctermfg=6	ctermbg=8		cterm=NONE
+hi StatusLineSecondary	ctermfg=6	ctermbg=4		cterm=NONE
 hi StatusLineTertiary	ctermfg=6	ctermbg=NONE	cterm=NONE
 
 "
@@ -122,7 +122,10 @@ hi pythonInclude		ctermfg=5	ctermbg=NONE	cterm=NONE
 "
 " Sh
 "
-hi shStatement		ctermfg=3	ctermbg=NONE cterm=NONE
+hi shCmdSubRegion	ctermfg=6	ctermbg=NONE	cterm=NONE
+hi shDerefVar		ctermfg=6	ctermbg=NONE	cterm=NONE
+hi shStatement		ctermfg=3	ctermbg=NONE	cterm=NONE
+hi shVariable		ctermfg=4	ctermbg=NONE	cterm=NONE
 
 "
 " SSH Config
@@ -153,3 +156,8 @@ hi vimSetStep		ctermfg=2	ctermbg=NONE	cterm=NONE
 " Yaml
 "
 hi yamlBlockCollectionItemStart		ctermfg=3	ctermbg=NONE	cterm=NONE
+
+"
+" Unknown
+"
+hi PreProc	ctermfg=6	ctermbg=NONE	cterm=NONE

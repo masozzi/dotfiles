@@ -3,35 +3,38 @@
 	border-radius: 0;
 	font-family: "xos4 Terminus";
 	font-size: 14px;
+	color: #60A6A6;
 }
 
 window {
-	background: #020C0D;
+	background: #030D0D;
 	border-bottom: none;
-	color: #448787;
 }
 
 #workspaces button {
 	padding: 0 2px;
-	background: #05181B;
-	color: #448787;
+	background: #082626;
 }
 
 #workspaces button.focused {
-	background: #093434;
-	color: #448787;
+	background: #146666;
+}
+
+#workspaces button.urgent {
+	background: #CC6690;
+	color: #082626;
 }
 
 #pulseaudio.mute {
-	background-color: #EDBC77;
+	background-color: #7C78C1;
 }
 
 #mode, #clock, #battery, #cpu, #memory, #network, #pulseaudio, #custom-spotify, #idle_inhibitor, #tray {
 	padding: 0 10px;
-	background-color: #05181B;
+	background-color: #082626;
 }
 
 #idle_inhibitor.activated {
-	color: #05181B;
-	background-color: #EDBC67;
+	color: #082626;
+	background-color: #7C78C1;
 }

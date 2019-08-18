@@ -3,17 +3,17 @@
 #
 set $mod Mod4
 # Directions
-set $left Left
-set $down Down
-set $up Up
-set $right Right
+set $left h
+set $down j
+set $up k
+set $right l
 # Terminal
 set $term alacritty
 # Wallpapers
 set $wallpaper /home/teo/Pictures/.wallpaper/wallpaper.jpg
 set $wallpaperLock /home/teo/Pictures/.wallpaper/wallpaper-locked.jpg
 # Lock screen command
-set $lockscreen swaylock --image $wallpaperLock --scaling fill
+set $lockscreen swaylock --color 333333
 
 #
 # Exec on startup
@@ -36,7 +36,6 @@ output DP-1 position 0 0
 output DP-1 transform 90 anticlockwise
 output DP-2 position 1080 450
 
-
 input "4152:4969:SteelSeries_Sensei_Raw_Gaming_Mouse" {
 	accel_profile flat
 	pointer_accel -0.2
@@ -50,7 +49,6 @@ bindsym $mod+q kill
 floating_modifier $mod normal
 bindsym $mod+Shift+c reload
 bindsym $mod+Shift+q exit
-bindsym $mod+l exec $lockscreen
 
 # Move the foucts
 bindsym $mod+$left focus left
@@ -137,14 +135,12 @@ default_floating_border	pixel 2
 
 # Gaps
 smart_gaps	off
-gaps inner	10
-gaps outer	10
 
 # Focus
 focus_follows_mouse	no
 
 # Colors
-client.focused				#093439 #093439 #448787 #020C0D #093439
-client.focused_inactive		#020C0D #020C0D #448787 #020C0D #020C0D
-client.unfocused			#020C0D #020C0D #448787 #020C0D #020C0D
-client.urgent				#CC6666 #CC6666 #448787 #020C0D #CC6666
+client.focused				#082626 #082626 #60A6A6 #030D0D #082626
+client.focused_inactive		#030D0D #030D0D #60A6A6 #030D0D #030D0D
+client.unfocused			#030D0D #030D0D #60A6A6 #030D0D #030D0D
+client.urgent				#CC6690 #CC6690 #60A6A6 #030D0D #CC6690

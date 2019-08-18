@@ -6,29 +6,29 @@ colors = {
         'background' :   '#020c0d',
         'cursorColor':   '#c1b7b7',
 
-        'color0' :       '#093439',
-        'color8' :       '#05181b',
-        'color1' :       '#cc6666',
-        'color9' :       '#cc6666',
-        'color2' :       '#62c67c',
-        'color10':       '#62c67c',
-        'color3' :       '#edbc77',
-        'color11':       '#edbc77',
-        'color4' :       '#4f809e',
-        'color12':       '#4f809e',
-        'color5' :       '#85678f',
-        'color13':       '#85678f',
-        'color6' :       '#448787',
-        'color14':       '#448787',
-        'color7' :       '#c1b7b7',
-        'color15':       '#c1b7b7'
+        'color0' :       '#082626',
+        'color8' :       '#082626',
+        'color1' :       '#cc6690',
+        'color9' :       '#cc6690',
+        'color2' :       '#62C68F',
+        'color10':       '#62C68F',
+        'color3' :       '#EDBC77',
+        'color11':       '#EDBC77',
+        'color4' :       '#146666',
+        'color12':       '#146666',
+        'color5' :       '#7C78C1',
+        'color13':       '#7C78C1',
+        'color6' :       '#60A6A6',
+        'color14':       '#60A6A6',
+        'color7' :       '#C1B7B7',
+        'color15':       '#C1B7B7'
 }
 
 #
 # Tabs
 #
 c.tabs.favicons.scale = 1.6
-c.tabs.position = 'bottom'
+c.tabs.position = 'right'
 c.tabs.width = 46
 c.tabs.indicator.width = 0
 c.tabs.title.format = ''
