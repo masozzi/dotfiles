@@ -28,7 +28,7 @@ colors = {
 # Tabs
 #
 c.tabs.favicons.scale = 1.6
-c.tabs.position = 'bottom'
+c.tabs.position = 'right'
 c.tabs.width = 46
 c.tabs.max_width = 46
 c.tabs.indicator.width = 0

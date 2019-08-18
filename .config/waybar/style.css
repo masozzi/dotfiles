@@ -26,8 +26,8 @@ window {
 }
 
 #workspaces button.urgent {
-	background: #CC6666;
-	color: #020C0D;
+	background: #CC6690;
+	color: #082626;
 }
 
 #pulseaudio.mute {
@@ -40,20 +40,22 @@ window {
 }
 
 #battery.charging {
-	background-color: #093434;
+	background-color: #146666;
 }
 
 #battery.full {
-	background-color: #62C67C;
-	color: #020C0D;
+	background-color: #62C68F;
+	color: #082626;
 }
 
 #battery.warning:not(.charging) {
-	background-color: #EDBC77;
+	color: #082626;
+	background-color: #60A6A6;
 }
 
-#battery.critical {
-	background-color: #CC6666;
+#battery.critical:not(.charging) {
+	color: #082626;
+	background-color: #CC6690;
 }
 
 #idle_inhibitor.activated {
