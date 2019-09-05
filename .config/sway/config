@@ -42,6 +42,11 @@ bindswitch lid:off output eDP-1 enable
 #
 output * bg $wallpaper fill
 
+input "4152:4969:SteelSeries_Sensei_Raw_Gaming_Mouse" {
+	accel_profile flat
+	pointer_accel -0.2
+}
+
 input "1008:4504:HP_HP_USB_1000dpi_Laser_Mouse" {
 	accel_profile flat
 	pointer_accel -0.2
