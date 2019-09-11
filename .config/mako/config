@@ -5,8 +5,8 @@ sort=-time
 anchor=top-right
 
 font=xos4 terminus
-text-color=#448787
-background-color=#093439
+text-color=#C1B7B7
+background-color=#030D0D
 padding=30
 border-size=0
 markup=1
