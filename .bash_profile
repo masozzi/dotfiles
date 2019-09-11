@@ -21,4 +21,4 @@ export _JAVA_AWT_WM_NONREPARENTING=1
 [[ -f ~/.bashrc ]] && . ~/.bashrc
 
 # Vulkan sdk env
-source ~/Documents/projects/vk-tutorial/vulkan-sdk/1.1.70.1/setup-env.sh
+[[ -d ~/Documents/vulkan-sdk/1.1.114.0/setup-env.sh ]] && source ~/Documents/vulkan-sdk/1.1.114.0/setup-env.sh
