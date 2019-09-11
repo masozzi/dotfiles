@@ -49,6 +49,7 @@ bindsym $mod+q kill
 floating_modifier $mod normal
 bindsym $mod+Shift+c reload
 bindsym $mod+Shift+q exit
+bindsym $mod+Alt+l exec swaylock --image /home/teo/Pictures/.wallpaper/wallpaper-locked.jpg --scaling fill
 
 # Move the foucts
 bindsym $mod+$left focus left
