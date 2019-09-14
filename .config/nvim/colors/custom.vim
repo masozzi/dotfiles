@@ -135,9 +135,9 @@ hi sshconfigKeyword		ctermfg=3	ctermbg=NONE	cterm=NONE
 "
 " TabLine
 "
-hi TabLine			ctermfg=6 ctermbg=8		cterm=NONE
+hi TabLine			ctermfg=6 ctermbg=0		cterm=NONE
 hi TabLineFill		ctermfg=6 ctermbg=NONE	cterm=NONE
-hi TabLineSel		ctermfg=6 ctermbg=0		cterm=NONE
+hi TabLineSel		ctermfg=6 ctermbg=4		cterm=NONE
 
 "
 " Vim
