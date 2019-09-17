@@ -127,7 +127,7 @@ bindsym XF86AudioLowerVolume exec amixer sset Master 5%-
 #
 # Graphics
 #
-font "xos4 terminus"
+font "Terminus"
 title_align center
 
 # Borders

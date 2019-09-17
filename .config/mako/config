@@ -4,7 +4,7 @@ max-visible=3
 sort=-time
 anchor=top-right
 
-font=xos4 terminus
+font=Terminus
 text-color=#C1B7B7
 background-color=#082626
 padding=30
