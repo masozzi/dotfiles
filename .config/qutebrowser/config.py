@@ -30,6 +30,7 @@ colors = {
 c.tabs.favicons.scale = 1.6
 c.tabs.position = 'bottom'
 c.tabs.width = 46
+c.tabs.max_width = 46
 c.tabs.indicator.width = 0
 c.tabs.title.format = ''
 c.tabs.title.format_pinned = ''
