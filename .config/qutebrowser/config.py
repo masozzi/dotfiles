@@ -2,14 +2,14 @@
 # Colors
 #
 colors = {
-        'foreground' :   '#c1b7b7',
-        'background' :   '#020c0d',
-        'cursorColor':   '#c1b7b7',
+        'foreground' :   '#C1B7B7',
+        'background' :   '#030D0D',
+        'cursorColor':   '#C1B7B7',
 
         'color0' :       '#082626',
         'color8' :       '#082626',
-        'color1' :       '#cc6690',
-        'color9' :       '#cc6690',
+        'color1' :       '#CC6690',
+        'color9' :       '#CC6690',
         'color2' :       '#62C68F',
         'color10':       '#62C68F',
         'color3' :       '#EDBC77',
@@ -28,7 +28,7 @@ colors = {
 # Tabs
 #
 c.tabs.favicons.scale = 1.6
-c.tabs.position = 'right'
+c.tabs.position = 'bottom'
 c.tabs.width = 46
 c.tabs.indicator.width = 0
 c.tabs.title.format = ''
@@ -45,9 +45,9 @@ c.colors.tabs.odd.bg = colors['color8']
 c.colors.tabs.odd.fg = colors['color6']
 c.colors.tabs.even.bg = colors['color8']
 c.colors.tabs.even.fg = colors['color6']
-c.colors.tabs.selected.odd.bg = colors['color0']
+c.colors.tabs.selected.odd.bg = colors['color4']
 c.colors.tabs.selected.odd.fg = colors['foreground']
-c.colors.tabs.selected.even.bg = colors['color0']
+c.colors.tabs.selected.even.bg = colors['color4']
 c.colors.tabs.selected.even.fg = colors['foreground']
 
 #
