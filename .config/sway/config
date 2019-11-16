@@ -51,6 +51,8 @@ floating_modifier $mod normal
 bindsym $mod+Shift+c reload
 bindsym $mod+Shift+q exit
 bindsym $mod+Alt+l exec swaylock --image /home/teo/Pictures/.wallpaper/wallpaper-locked.jpg --scaling fill
+bindsym $mod+p exec grim ~/Pictures/$(date +%Y%m%d%H%M%S).png
+bindsym $mod+Alt+p exec grim -g "$(slurp)" ~/Pictures/$(date +%Y%m%d%H%M%S).png
 
 # Move the foucts
 bindsym $mod+$left focus left
