@@ -45,14 +45,23 @@ hi ColorColumn				ctermbg=8		cterm=NONE
 "
 " C
 "
-" Must change the syntax for that
-" 'cause this bitch set it as transparent
-hi cInclude			ctermfg=1	ctermbg=NONE	cterm=NONE
+hi cCharacter		ctermfg=4	ctermbg=NONE	cterm=NONE
+hi cConstant		ctermfg=5	ctermbg=NONE	cterm=NONE
+hi cCppString		ctermfg=4	ctermbg=NONE	cterm=NONE
 hi cDefine			ctermfg=1	ctermbg=NONE	cterm=NONE
+hi cInclude			ctermfg=1	ctermbg=NONE	cterm=NONE
+hi cIncluded		ctermfg=5	ctermbg=NONE	cterm=NONE
 hi cParen			ctermfg=2	ctermbg=NONE	cterm=NONE
 hi cLabel			ctermfg=3	ctermbg=NONE	cterm=NONE
+hi cNumber			ctermfg=1	ctermbg=NONE	cterm=NONE
+hi cNumbers			ctermfg=1	ctermbg=NONE	cterm=NONE
 hi cOperator		ctermfg=3	ctermbg=NONE	cterm=NONE
+hi cSpecial			ctermfg=6	ctermbg=NONE	cterm=NONE
 hi cStatement		ctermfg=3	ctermbg=NONE	cterm=NONE
+hi cStorageClass	ctermfg=4	ctermbg=NONE	cterm=NONE
+hi cString			ctermfg=4	ctermbg=NONE	cterm=NONE
+hi cStructure		ctermfg=6	ctermbg=NONE	cterm=NONE
+hi cTodo			ctermfg=0	ctermbg=2		cterm=NONE
 hi cPreCondit		ctermfg=1	ctermbg=NONE	cterm=NONE
 hi cPreConditMatch	ctermfg=1	ctermbg=NONE	cterm=NONE
 hi cPreProc			ctermfg=1	ctermbg=NONE	cterm=NONE
@@ -63,6 +72,7 @@ hi cPreProc			ctermfg=1	ctermbg=NONE	cterm=NONE
 hi cppAccess		ctermfg=3	ctermbg=NONE	cterm=NONE
 hi cppCast			ctermfg=3	ctermbg=NONE	cterm=NONE
 hi cppExceptions	ctermfg=3	ctermbg=NONE	cterm=NONE
+hi cppStatement		ctermfg=3	ctermbg=NONE	cterm=NONE
 
 "
 " Css
