@@ -29,4 +29,4 @@ alias dotfiles='/usr/bin/git --git-dir=$HOME/Documents/dotfiles/ --work-tree=$HO
 
 PS1="${GREEN}[\u@${GREEN}\h \w]${RED}\$(__git_ps1 '  %s')${GREEN}
 ${BLACK}>${BLUE}>${CYAN}>${RESET} "
-PS2="${YELLOW}>${BLUE}>${MAGENTA}>${RESET} "
+PS2="${BLACK}>${BLUE}>${CYAN}>${RESET} "
