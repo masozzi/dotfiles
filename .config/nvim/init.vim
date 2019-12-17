@@ -22,6 +22,8 @@ Plugin 'alvan/vim-closetag'
 Plugin 'romainl/vim-cool'
 " Editorconfig
 Plugin 'editorconfig/editorconfig-vim'
+" Toml sytax
+Plugin 'cespare/vim-toml'
 
 call vundle#end()
 filetype on 
