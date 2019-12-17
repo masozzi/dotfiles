@@ -150,6 +150,12 @@ hi TabLineFill		ctermfg=6 ctermbg=NONE	cterm=NONE
 hi TabLineSel		ctermfg=6 ctermbg=4		cterm=NONE
 
 "
+" Toml
+"
+hi TomlTable		ctermfg=2	ctermbg=NONE	cterm=NONE
+hi TomlTableArray	ctermfg=2	ctermbg=NONE	cterm=NONE
+
+"
 " Vim
 "
 hi vimGroup			ctermfg=2	ctermbg=NONE	cterm=NONE
