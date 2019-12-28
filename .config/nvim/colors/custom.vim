@@ -107,6 +107,13 @@ hi markdownListMarker		ctermfg=3	ctermbg=NONE	cterm=NONE
 hi markdownCode				ctermfg=6	ctermbg=8		cterm=NONE
 hi markdownCodeBlock		ctermfg=6	ctermbg=8		cterm=NONE
 hi markdownCodeDelimiter	ctermfg=6	ctermbg=NONE	cterm=NONE
+hi markdownHeadingDelimiter	ctermfg=5	ctermbg=NONE	cterm=NONE
+hi markdownH1				ctermfg=5	ctermbg=NONE	cterm=NONE
+hi markdownH2				ctermfg=5	ctermbg=NONE	cterm=NONE
+hi markdownH3				ctermfg=5	ctermbg=NONE	cterm=NONE
+hi markdownH4				ctermfg=5	ctermbg=NONE	cterm=NONE
+hi markdownH5				ctermfg=5	ctermbg=NONE	cterm=NONE
+hi markdownH6				ctermfg=5	ctermbg=NONE	cterm=NONE
 
 "
 " Muttrc
