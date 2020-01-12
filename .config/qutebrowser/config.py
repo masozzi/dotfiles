@@ -24,6 +24,8 @@ colors = {
         'color15':       '#C1B7B7'
 }
 
+font = '10pt Terminus'
+
 #
 # Tabs
 #
@@ -58,3 +60,19 @@ c.statusbar.widgets = ['url', 'scroll']
 
 c.colors.statusbar.normal.bg = colors['background']
 c.colors.statusbar.normal.fg = colors['foreground']
+
+#
+# Font
+#
+c.fonts.completion.category = font
+c.fonts.completion.entry = font
+c.fonts.debug_console = font
+c.fonts.downloads = font
+c.fonts.hints = font
+c.fonts.keyhint = font
+c.fonts.messages.error = font
+c.fonts.messages.info = font
+c.fonts.messages.warning = font
+c.fonts.prompts = font
+c.fonts.statusbar = font
+c.fonts.tabs = font
