@@ -21,6 +21,7 @@ set $lockscreen swaylock --color 333333
 exec_always xrdb /home/teo/.config/resources/.Xresources
 exec_always mako
 
+exec kanshi
 exec redshift -l 45.4624:9.1293 -t 6500:4000
 exec waybar -l trace > /home/teo/Documents/waybar.log
 exec swayidle \
@@ -32,10 +33,6 @@ exec swayidle \
 # Inputs/Outputs
 #
 output * bg $wallpaper fill
-
-output DP-1 position 0 0
-output DP-1 transform 90 anticlockwise
-output DP-2 position 1080 450
 
 input "4152:4969:SteelSeries_Sensei_Raw_Gaming_Mouse" {
 	accel_profile flat
