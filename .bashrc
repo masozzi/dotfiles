@@ -19,6 +19,7 @@ RESET="\[$(tput sgr0)\]"
 # Aliases
 alias ls='ls --color=auto'
 alias ll='ls -lAh --group-directories-first'
+alias vi='vim'
 alias vim='nvim'
 alias pacman='pacman --color=always'
 alias sudo='sudo '
