@@ -24,7 +24,7 @@ colors = {
         'color15':       '#C1B7B7'
 }
 
-font = '10pt Terminus'
+font = '10pt JetBrains Mono'
 
 #
 # Tabs
