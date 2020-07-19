@@ -16,8 +16,8 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'junegunn/goyo.vim'
 " Closetag
 Plugin 'alvan/vim-closetag'
-" YouCompleteMe
-"Plugin 'Valloric/YouCompleteMe'
+" Autocompletion
+Plugin 'ajh17/VimCompletesMe'
 " Cool
 Plugin 'romainl/vim-cool'
 " Editorconfig
@@ -45,8 +45,6 @@ let g:closetag_shortcut = '>'				" close shortcut
 "              "
 nnoremap <C-n> <Esc>:NERDTreeToggle<CR>
 inoremap <C-Space> <C-n>
-nnoremap <C-+> <C-]>
-nnoremap <C-è> <C-o>
 
 "           "
 " Functions "
