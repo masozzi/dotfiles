@@ -75,4 +75,3 @@ c.fonts.messages.info = font
 c.fonts.messages.warning = font
 c.fonts.prompts = font
 c.fonts.statusbar = font
-c.fonts.tabs = font
