@@ -50,6 +50,15 @@ bindsym $mod+Shift+q exit
 bindsym $mod+Alt+l exec swaylock --image /home/teo/Pictures/.wallpaper/wallpaper-locked.jpg --scaling fill
 bindsym $mod+p exec grim ~/Pictures/$(date +%Y%m%d%H%M%S).png
 bindsym $mod+Alt+p exec grim -g "$(slurp)" ~/Pictures/$(date +%Y%m%d%H%M%S).png
+bindsym $mod+d exec bemenu-run -i -w -n 1 -l 10 -p run -H 25 --fn "JetBrains Mono" \
+		--tb=#082626 \
+		--tf=#60A6A6 \
+		--fb=#030D0D \
+		--ff=#C1B7B7 \
+		--nb=#030D0D \
+		--nf=#C1B7B7 \
+		--hb=#082626 \
+		--hf=#60A6A6
 
 # Move the foucts
 bindsym $mod+$left focus left
