@@ -21,6 +21,14 @@ window:
     columns: 80
     lines: 24
 
+  # Window position (changes require restart)
+  #
+  # Specified in number of pixels.
+  # If the position is not set, the window manager will handle the placement.
+  position:
+    x: 0
+    y: 0
+
   # Window padding (changes require restart)
   #
   # Blank space added around the window in pixels. This padding is scaled
@@ -41,6 +49,25 @@ window:
 
   # When true, alacritty starts maximized.
   startup_mode: Windowed
+
+  # Window title
+  title: Alacritty
+
+  # Allow terminal applications to change Alacritty's window title.
+  dynamic_title: true
+
+  # Window class (Linux/BSD only):
+  class:
+    # Application instance name
+    instance: Alacritty
+    # General application class
+    general: Alacritty
+
+  # GTK theme variant (Linux/BSD only)
+  #
+  # Override the variant of the GTK theme. Commonly supported values are `dark` and `light`.
+  # Set this to `None` to use the default theme variant.
+  gtk_theme_variant: None
 
 scrolling:
   # Maximum number of lines in the scrollback buffer.
@@ -175,31 +202,47 @@ colors:
     cyan:    '0x60A6A6'
     white:   '0xC1B7B7'
 
-# Visual Bell
+# Bell
 #
-# Any time the BEL code is received, Alacritty "rings" the visual bell. Once
-# rung, the terminal background will be set to white and transition back to the
-# default background color. You can control the rate of this transition by
-# setting the `duration` property (represented in milliseconds). You can also
-# configure the transition function by setting the `animation` property.
-#
-# Values for `animation`:
-#   - Ease
-#   - EaseOut
-#   - EaseOutSine
-#   - EaseOutQuad
-#   - EaseOutCubic
-#   - EaseOutQuart
-#   - EaseOutQuint
-#   - EaseOutExpo
-#   - EaseOutCirc
-#   - Linear
-#
-# Specifying a `duration` of `0` will disable the visual bell.
-visual_bell:
-  animation: EaseOutExpo
+# The bell is rung every time the BEL control character is received.
+bell:
+  # Visual Bell Animation
+  #
+  # Animation effect for flashing the screen when the visual bell is rung.
+  #
+  # Values for `animation`:
+  #   - Ease
+  #   - EaseOut
+  #   - EaseOutSine
+  #   - EaseOutQuad
+  #   - EaseOutCubic
+  #   - EaseOutQuart
+  #   - EaseOutQuint
+  #   - EaseOutExpo
+  #   - EaseOutCirc
+  #   - Linear
+  animation: EaseOut
+
+  # Duration of the visual bell flash. A `duration` of `0` will disable the
+  # visual bell animation.
   duration: 0
 
+  # Visual bell animation color.
+  color: '#ffffff'
+
+  # Bell Command
+  #
+  # This program is executed whenever the bell is rung.
+  #
+  # When set to `command: None`, no command will be executed.
+  #
+  # Example:
+  #   command:
+  #     program: notify-send
+  #     args: ["Hello, World!"]
+  #
+  command: None
+  
 # Background opacity
 #
 # Window opacity as a floating point number from `0.0` to `1.0`.
@@ -256,8 +299,6 @@ selection:
   # the selection clipboard. Otherwise, it will only be copied to the selection
   # clipboard.
   save_to_clipboard: true
-
-dynamic_title: true
 
 cursor:
   # Cursor style
