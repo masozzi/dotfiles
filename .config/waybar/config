@@ -32,7 +32,7 @@
         "format": "MEM {}%"
     },
     "network": {
-        "interface": "wlp5s0",
+        "interface": "wlan0",
         "format-ethernet": "{ifname}",
         "format-disconnected": "Offline"
     },
