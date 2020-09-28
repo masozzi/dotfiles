@@ -37,3 +37,16 @@ window {
 	color: #7AA2F7;
 	background-color: #363B54;
 }
+
+#battery.charging {
+	color: #146666;
+	background: #62C68F;
+}
+
+#battery.warning {
+	background: #7C78C1;
+}
+
+#battery.critical {
+	background: #CC6690;
+}

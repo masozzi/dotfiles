@@ -42,5 +42,13 @@
    	"tray": {
    		"icon-size": 15,
    		"spacing": 10
+   	},
+   	"battery": {
+   		"bat": "BAT0",
+   		"format": "BAT {capacity}%",
+   		"states": {
+   			"warning": 30,
+   			"critical": 15
+   		}
    	}
 }
