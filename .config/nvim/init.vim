@@ -16,6 +16,8 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'junegunn/goyo.vim'
 " Closetag
 Plugin 'alvan/vim-closetag'
+" Autocompletion
+" Plugin 'ajh17/VimCompletesMe'
 " Cool
 Plugin 'romainl/vim-cool'
 " Editorconfig
