@@ -2,3 +2,8 @@
 	output DP-1 position 1080,450
 	output DP-2 position 0,0 transform 90
 }
+
+{
+	output eDP-1 position 0,1080
+	output DP-1 position 0,0
+}
