@@ -46,6 +46,10 @@ input "1133:16518:Logitech_G703_LS" {
 	pointer_accel -0.2
 }
 
+input "2:14:ETPS/2_Elantech_Touchpad" {
+	natural_scroll enabled
+}
+
 # Change cursor theme
 seat seat0 xcursor_theme Fuchsia
 
