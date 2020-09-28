@@ -4,7 +4,7 @@
     "height": 25,
     "modules-left": ["sway/workspaces", "sway/mode"],
     "modules-center": ["clock"],
-    "modules-right": ["tray", "idle_inhibitor", "pulseaudio", "network", "cpu", "memory"],
+    "modules-right": ["tray", "idle_inhibitor", "pulseaudio", "network", "cpu", "memory", "battery"],
     "sway/workspaces": {
         "disable-scroll": true,
         "disable-bar-scroll": true,
@@ -46,5 +46,13 @@
    	"tray": {
    		"icon-size": 15,
    		"spacing": 10
+   	},
+   	"battery": {
+   		"bat": "BAT0",
+   		"format": "BAT {capacity}%",
+   		"states": {
+   			"warning": 30,
+   			"critical": 15
+   		}
    	}
 }
