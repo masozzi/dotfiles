@@ -44,9 +44,11 @@ window {
 }
 
 #battery.warning {
+	color: #C1B7B7;
 	background: #7C78C1;
 }
 
 #battery.critical {
+	color: #C1B7B7;
 	background: #CC6690;
 }
