@@ -13,7 +13,7 @@ export XDG_RUNTIME_DIR="/run/user/$(id -u $USER)"
 export XKB_DEFAULT_LAYOUT="it"
 export PATH="$HOME/.bin:$PATH"
 export PATH="$HOME/.cargo/bin:$PATH"
-export JAVA_HOME="/usr/lib/jvm/java-8-openjdk"
+export JAVA_HOME="/usr/lib/jvm/default"
 export EDITOR="nvim"
 export GOPATH="$HOME/Documents/projects/go"
 
