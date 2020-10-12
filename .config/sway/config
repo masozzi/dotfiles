@@ -22,7 +22,7 @@ exec_always xrdb /home/teo/.config/resources/.Xresources
 exec_always mako
 exec_always kanshi
 
-exec redshift -l 45.4624:9.1293 -t 6500:4000
+exec wlsunset -l 45.4624 -L 9.1293 -t 4000 -T 6500
 exec waybar -l trace > /home/teo/Documents/waybar.log
 exec swayidle \
 	timeout 300 'swaylock --image /home/teo/Pictures/.wallpaper/wallpaper-locked.jpg --scaling fill' \
