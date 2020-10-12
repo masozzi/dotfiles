@@ -40,9 +40,19 @@ input "4152:4969:SteelSeries_Sensei_Raw_Gaming_Mouse" {
 	pointer_accel -0.2
 }
 
+<<<<<<< HEAD
 input "1133:16518:Logitech_G703_LS" {
 	accel_profile flat
 	pointer_accel -0.2
+=======
+input "2:14:ETPS/2_Elantech_Touchpad" {
+	natural_scroll enabled
+	tap enabled
+}
+
+input "2:14:ETPS/2_Elantech_TrackPoint" {
+	pointer_accel -0.1
+>>>>>>> 06edc86 (sway: changed inputs configuration)
 }
 
 #
