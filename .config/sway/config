@@ -48,6 +48,11 @@ input "1133:16518:Logitech_G703_LS" {
 
 input "2:14:ETPS/2_Elantech_Touchpad" {
 	natural_scroll enabled
+	tap enabled
+}
+
+input "2:14:ETPS/2_Elantech_TrackPoint" {
+	pointer_accel -0.1
 }
 
 # Change cursor theme
