@@ -10,22 +10,22 @@ set $right l
 # Terminal
 set $term alacritty
 # Wallpapers
-set $wallpaper /home/teo/Pictures/.wallpaper/wallpaper.jpg
-set $wallpaperLock /home/teo/Pictures/.wallpaper/wallpaper-locked.jpg
+set $wallpaper $HOME/Pictures/.wallpaper/wallpaper.jpg
+set $wallpaperLock $HOME/Pictures/.wallpaper/wallpaper-locked.jpg
 # Lock screen command
 set $lockscreen swaylock --color 333333
 
 #
 # Exec on startup
 #
-exec_always xrdb /home/teo/.config/resources/.Xresources
+exec_always xrdb $HOME/.config/resources/.Xresources
 exec_always mako
 exec_always kanshi
 
 exec wlsunset -l 45.4624 -L 9.1293 -t 4000 -T 6500
-exec waybar -l trace > /home/teo/Documents/waybar.log
+exec waybar -l trace > $HOME/Documents/waybar.log
 exec swayidle \
-	timeout 300 'swaylock --image /home/teo/Pictures/.wallpaper/wallpaper-locked.jpg --scaling fill' \
+	timeout 300 'swaylock --image $HOME/Pictures/.wallpaper/wallpaper-locked.jpg --scaling fill' \
 	timeout 600 'swaymsg "output * dpms off"' \
 	resume 'swaymsg "output * dpms on"'
 
@@ -47,7 +47,7 @@ bindsym $mod+q kill
 floating_modifier $mod normal
 bindsym $mod+Shift+c reload
 bindsym $mod+Shift+q exit
-bindsym $mod+Alt+l exec swaylock --image /home/teo/Pictures/.wallpaper/wallpaper-locked.jpg --scaling fill
+bindsym $mod+Alt+l exec swaylock --image $HOME/Pictures/.wallpaper/wallpaper-locked.jpg --scaling fill
 bindsym $mod+p exec grim ~/Pictures/$(date +%Y%m%d%H%M%S).png
 bindsym $mod+Alt+p exec grim -g "$(slurp)" ~/Pictures/$(date +%Y%m%d%H%M%S).png
 bindsym $mod+d exec bemenu-run -i -w -n 1 -l 10 -p run -H 25 --fn "JetBrains Mono" \
