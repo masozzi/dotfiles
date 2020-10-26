@@ -140,7 +140,7 @@ bindsym XF86AudioPrev exec mpc prev
 #
 # Graphics
 #
-font "Jetbrains Mono"
+font "Jetbrains Mono" 11
 title_align center
 
 # Borders
