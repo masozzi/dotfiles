@@ -24,6 +24,8 @@ Plugin 'romainl/vim-cool'
 Plugin 'editorconfig/editorconfig-vim'
 " Toml sytax
 Plugin 'cespare/vim-toml'
+" Go
+Plugin 'fatih/vim-go'
 
 call vundle#end()
 filetype on 
