@@ -1,3 +1,6 @@
+# Do not load config changed from the GUI
+config.load_autoconfig(False)
+
 #
 # Colors
 #
