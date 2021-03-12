@@ -24,6 +24,7 @@ exec_always kanshi
 
 exec wlsunset -l 45.4624 -L 9.1293 -t 4000 -T 6500
 exec waybar
+exec solaar -w hide
 exec swayidle \
 	timeout 300 'swaylock --image $HOME/Pictures/.wallpaper/wallpaper-locked.jpg --scaling fill' \
 	timeout 600 'swaymsg "output * dpms off"' \
@@ -35,6 +36,11 @@ exec swayidle \
 output * bg $wallpaper fill
 
 input "4152:4969:SteelSeries_Sensei_Raw_Gaming_Mouse" {
+	accel_profile flat
+	pointer_accel -0.2
+}
+
+input "1133:16518:Logitech_G703_LS" {
 	accel_profile flat
 	pointer_accel -0.2
 }
