@@ -11,11 +11,11 @@ export XDG_CONFIG_DIRS="$XDG_CONFIG_HOME:/etc/xdg"
 export XDG_RUNTIME_DIR="/run/user/$(id -u $USER)"
 
 export XKB_DEFAULT_LAYOUT="it"
-export PATH="$HOME/.bin:$PATH"
+export PATH="$HOME/.local/bin:$PATH"
 export PATH="$HOME/.cargo/bin:$PATH"
 export JAVA_HOME="/usr/lib/jvm/default"
 export EDITOR="nvim"
-export GOPATH="$HOME/Documents/projects/go"
+export GOPATH="$HOME/.local/go"
 
 export CC="clang"
 export CXX="clang++"

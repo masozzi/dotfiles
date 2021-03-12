@@ -23,7 +23,7 @@ alias vi='vim'
 alias vim='nvim'
 alias pacman='pacman --color=always'
 alias doas='doas '
-alias dotfiles='/usr/bin/git --git-dir=$HOME/Documents/dotfiles/ --work-tree=$HOME'
+alias dotfiles='/usr/bin/git --git-dir=$HOME/.local/dotfiles/ --work-tree=$HOME'
 
 # Git prompt
 [[ -f /usr/share/git/completion/git-prompt.sh ]] && source /usr/share/git/completion/git-prompt.sh
