@@ -30,7 +30,7 @@ colors = {
 font = '10pt JetBrains Mono'
 
 # Set dark mode preference
-c.colors.webpage.prefers_color_scheme_dark = True
+c.colors.webpage.preferred_color_scheme = 'dark'
 
 #
 # Tabs
