@@ -48,7 +48,7 @@
    		"spacing": 10
    	},
    	"battery": {
-   		"bat": "BAT0",
+   		"bat": "cw2015-battery",
    		"format": "BAT {capacity}%",
    		"states": {
    			"warning": 30,

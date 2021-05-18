@@ -25,9 +25,8 @@ alias pacman='pacman --color=always'
 alias doas='doas '
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.local/dotfiles/ --work-tree=$HOME'
 
-# Git prompt
-[[ -f /usr/share/git/completion/git-prompt.sh ]] && source /usr/share/git/completion/git-prompt.sh
+[[ -f /usr/share/bash-completion/completions/git ]] && source /usr/share/bash-completion/completions/git
 
-PS1="${GREEN}[\u@${GREEN}\h \w]${RED}\$(__git_ps1 '  %s')${GREEN}
+PS1="${GREEN}[\u@${GREEN}\h \w]${RED}\$(__git_heads '  ')${GREEN}
 ${BLACK}>${BLUE}>${CYAN}>${RESET} "
 PS2="${BLACK}>${BLUE}>${CYAN}>${RESET} "

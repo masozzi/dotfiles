@@ -8,7 +8,7 @@ set $down j
 set $up k
 set $right l
 # Terminal
-set $term alacritty
+set $term havoc
 # Wallpapers
 set $wallpaper $HOME/Pictures/.wallpaper/wallpaper.jpg
 set $wallpaperLock $HOME/Pictures/.wallpaper/wallpaper-locked.jpg
@@ -43,19 +43,13 @@ input "4152:4969:SteelSeries_Sensei_Raw_Gaming_Mouse" {
 	pointer_accel -0.2
 }
 
-<<<<<<< HEAD
 input "1133:16518:Logitech_G703_LS" {
 	accel_profile flat
 	pointer_accel -0.2
-=======
-input "2:14:ETPS/2_Elantech_Touchpad" {
-	natural_scroll enabled
-	tap enabled
 }
 
-input "2:14:ETPS/2_Elantech_TrackPoint" {
-	pointer_accel -0.1
->>>>>>> 06edc86 (sway: changed inputs configuration)
+input "9610:30:HAILUCK_CO.,LTD_USB_KEYBOARD" {
+	xkb_layout gb
 }
 
 #
@@ -179,10 +173,5 @@ client.unfocused			#030D0D #030D0D #60A6A6 #030D0D #030D0D
 client.urgent				#CC6690 #CC6690 #60A6A6 #030D0D #CC6690
 
 # Criteria
-workspace 1 output DP-2
-workspace 2 output DP-1
-workspace 3 output DP-1
-workspace 4 output DP-1
-for_window [class="qutebrowser"] move container to workspace 1
+for_window [app_id="org.qutebrowser.qutebrowser"] move container to workspace 1
 for_window [class="Spotify"] move container to workspace 4
-for_window [class="Steam"] move container to workspace 1
