@@ -118,3 +118,6 @@ set statusline+=\ %{strlen(&filetype)>0?toupper(&filetype):'NONE'}\  " File type
 " General
 "
 set completeopt=menu
+
+let g:neovide_iso_layout=v:true
+let g:neovide_cursor_vfx_mode = "railgun"
