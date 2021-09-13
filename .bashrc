@@ -23,6 +23,7 @@ alias vi='vim'
 alias vim='nvim'
 alias pacman='pacman --color=always'
 alias doas='doas '
+alias sudo='sudo '
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.local/dotfiles/ --work-tree=$HOME'
 
 # Git prompt
