@@ -21,10 +21,10 @@ set $lockscreen swaylock --color 333333
 exec_always xrdb $HOME/.config/resources/.Xresources
 exec_always mako
 exec_always kanshi
-exec_always megasync
 
 exec wlsunset -l 45.4624 -L 9.1293 -t 4000 -T 6500
 exec waybar
+exec sleep 2 && megasync
 exec solaar -w hide
 exec swayidle \
 	timeout 300 'swaylock --image $HOME/Pictures/.wallpaper/wallpaper-locked.jpg --scaling fill' \
