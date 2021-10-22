@@ -66,6 +66,7 @@ c.statusbar.widgets = ['url', 'scroll']
 
 c.colors.statusbar.normal.bg = colors['background']
 c.colors.statusbar.normal.fg = colors['foreground']
+c.colors.statusbar.private.bg = colors['color1']
 
 #
 # Font
