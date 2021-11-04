@@ -10,7 +10,7 @@ galaxyline.short_line_list = {"NvimTree"}
 galaxyline.section.left[1] = {
 	SeparatorFarLeft = {
 		provider = function() return " " end,
-		highlight = {colors.cyan, colors.black}
+		highlight = {colors.white_dark, colors.black}
 	}
 }
 
@@ -45,7 +45,7 @@ galaxyline.section.left[2] = {
 			return alias_mode
 		end,
 		separator = " ",
-		highlight = {colors.cyan, colors.black}
+		highlight = {colors.white_dark, colors.black}
 	}
 }
 
@@ -53,7 +53,7 @@ galaxyline.section.left[3] = {
 	FileName = {
 		provider = "FileName",
 		condition = galaxyline_condition.buffer_not_empty,
-		highlight = {colors.cyan, colors.background}
+		highlight = {colors.white_dark, colors.background}
 	}
 }
 
@@ -67,8 +67,8 @@ galaxyline.section.right[1] = {
 			return string.format("Line %d Coll %d ", line, coll)
 		end,
 		separator = " ",
-		highlight = {colors.cyan, colors.black},
-		separator_highlight = {colors.cyan, colors.black}
+		highlight = {colors.white_dark, colors.black},
+		separator_highlight = {colors.white_dark, colors.black}
 	},
 }
 
@@ -83,15 +83,15 @@ galaxyline.section.right[2] = {
 			end
 		end,
 		separator = " ",
-		highlight = {colors.cyan, colors.blue},
-		separator_highlight = {colors.cyan, colors.blue}
+		highlight = {colors.white_dark, colors.black},
+		separator_highlight = {colors.white_dark, colors.black}
 	}
 }
 
 galaxyline.section.right[3] = {
 	SeparatorFarRight = {
 		provider = function() return " " end,
-		highlight = {colors.cyan, colors.blue}
+		highlight = {colors.white_dark, colors.black}
 	}
 }
 

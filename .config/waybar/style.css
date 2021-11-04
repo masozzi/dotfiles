@@ -1,28 +1,27 @@
 * {
 	border: none;
 	border-radius: 0;
-	font-family: "JetBrains Mono";
+	font-family: "Codelia";
 	font-size: 14px;
-	color: #60A6A6;
+	color: #7AA2F7;
 }
 
 window {
-	background: #030D0D;
+	background-color: #111015;
 	border-bottom: none;
 }
 
 #workspaces button {
 	padding: 0 2px;
-	background: #082626;
+	background-color: #1A1B27;
 }
 
 #workspaces button.focused {
-	background: #146666;
+	background-color: #363B54;
 }
 
 #workspaces button.urgent {
-	background: #CC6690;
-	color: #082626;
+	background-color: #F7768E;
 }
 
 #pulseaudio.mute {
@@ -31,10 +30,10 @@ window {
 
 #mode, #clock, #battery, #cpu, #memory, #network, #pulseaudio, #custom-spotify, #idle_inhibitor, #tray {
 	padding: 0 10px;
-	background-color: #082626;
+	background-color: #1A1B27;
 }
 
 #idle_inhibitor.activated {
-	color: #082626;
-	background-color: #7C78C1;
+	color: #7AA2F7;
+	background-color: #363B54;
 }

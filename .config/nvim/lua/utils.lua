@@ -1,18 +1,38 @@
 local M = {}
 
 M.colors = {
-	background = "#030D0D",
-	black = "#082626",
-	darker_black = "#000000",
-	red = "#CC6690",
-	green = "#62C68F",
-	yellow = "#EDBC77",
-	blue = "#146666",
-	magenta = "#7C78C1",
-	cyan = "#60A6A6",
-	white = "#C1B7B7",
+	black_dark = "#111015",
+	black = "#16161F",
+	black_light = "#1A1B27",
+	black_lighter = "#363B54",
 
-	grey_blue = "#3E5056",
+	red_dark = "#DB4B4B",
+	red = "#FF5370",
+	red_light = "#F7768E",
+
+	green_dark = "#007A75",
+	green = "#1ABC9C",
+	green_light = "#73DACA",
+
+	yellow_dark = "#FF9E64",
+	yellow = "#FFDB69",
+	yellow_light = "#FFEB40",
+
+	blue_dark = "#7AA2F7",
+	blue = "#9ABDF5",
+	blue_light = "#7DCFFF",
+
+	magenta_dark = "#B267E6",
+	magenta = "#9D7CD8",
+	magenta_light = "#BB9AF7",
+
+	cyan_dark = "#0DA0BA",
+	cyan = "#0DB9D7",
+	cyan_light = "#3DD8F3",
+
+	white_dark = "#787C99",
+	white = "#C0CAF5",
+	white_light = "#A9B1D6"
 }
 
 M.hide_statusline = function()
