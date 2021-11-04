@@ -11,9 +11,6 @@ vim.o.list = true
 
 vim.cmd [[ autocmd FileType * lua require("utils").hide_statusline()]]
 
--- Color scheme
-require("custom")
-
 require("keymaps")
 require("plugins")
 
@@ -24,3 +21,6 @@ require("plugins/neovide")
 require("plugins/nvimtree")
 require("plugins/telescope")
 require("plugins/treesitter")
+
+-- Color scheme
+require("custom")

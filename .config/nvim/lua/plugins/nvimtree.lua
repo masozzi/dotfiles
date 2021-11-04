@@ -1,1 +1,4 @@
-vim.g.nvim_tree_side = 'left'
+require("nvim-tree").setup {
+	side = 'left',
+	update_cwd = true
+}
