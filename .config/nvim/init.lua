@@ -8,6 +8,8 @@ vim.o.showmode = false
 vim.g.mapleader = " " -- setting <Leader> as space
 vim.o.listchars = "tab:→ ,lead:×,space:·,trail:×"
 vim.o.list = true
+vim.o.number = true
+vim.o.cursorline = true
 
 vim.cmd [[ autocmd FileType * lua require("utils").hide_statusline()]]
 

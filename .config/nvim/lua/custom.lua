@@ -57,6 +57,9 @@ Group.new("TabLineSel", colors.cyan, colors.blue, style.NONE, nil, nil)
 -- Vertical split color
 Group.new("VertSplit", colors.black, colors.black, style.NONE, nil, nil)
 Group.new("Whitespace", colors.black_lighter, nil, style.NONE, nil, nil)
+Group.new("LineNr", colors.black_lighter, nil, style.NONE, nil, nil)
+Group.new("CursorLine", nil, colors.black, style.NONE, nil, nil)
+Group.new("CursorLineNr", colors.white_dark, nil, style.bold, nil, nil)
 
 --
 -- Tree-sitter colros
