@@ -175,3 +175,4 @@ workspace 4 output DP-1
 for_window [app_id="org.qutebrowser.qutebrowser"] move container to workspace 1
 for_window [class="Spotify"] move container to workspace 4
 for_window [class="Steam"] move container to workspace 1
+for_window [class="Slack"] move container to workspace 4
