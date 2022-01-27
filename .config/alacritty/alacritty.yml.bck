@@ -47,11 +47,6 @@ window:
   #     - none: Neither borders nor title bar
   decorations: none
 
-  # Background opacity
-  # Window opacity as a floating point number from `0.0` to `1.0`.
-  # The value `0.0` is completely transparent and `1.0` is opaque.
-  opacity: 1.0
-
   # When true, alacritty starts maximized.
   startup_mode: Windowed
 
@@ -103,19 +98,19 @@ scrolling:
 font:
   # Normal (roman) font face
   normal:
-    family: "Codelia"
+    family: "JetBrains Mono"
     # The `style` can be specified to pick a specific face.
     style: Regular
 
   # Bold font face
   bold:
-    family: "Codelia"
+    family: "JetBrains Mono"
     # The `style` can be specified to pick a specific face.
     style: Bold
 
   # Italic font face
   italic:
-    family: "Codelia"
+    family: "JetBrains Mono"
     # The `style` can be specified to pick a specific face.
     style: Italic
 
@@ -166,46 +161,46 @@ draw_bold_text_with_bright_colors: true
 colors:
   # Default colors
   primary:
-    background: '0x16161F'
-    foreground: '0xC0CAF5'
+    background: '0x010006'
+    foreground: '0xD9D9D9'
 
   # Colors the cursor will use if `custom_cursor_colors` is true
   cursor:
-    text: '0x787C99'
-    cursor: '0xA9B1D6'
+    text: '0x000000'
+    cursor: '0xFFFFFF'
 
   # Normal colors
   normal:
-    black:   '0x363B54'
-    red:     '0xFF5370'
-    green:   '0x1ABC9C'
-    yellow:  '0xFFDB69'
-    blue:    '0x7AA2F7'
-    magenta: '0x9D7CD8'
-    cyan:    '0x9ABDF5'
-    white:   '0xC0CAF5'
+    black:   '0x082626'
+    red:     '0xf8338A'
+    green:   '0x36FF99'
+    yellow:  '0xFEFE52'
+    blue:    '0x3F00FF'
+    magenta: '0x885AD7'
+    cyan:    '0x00F0FF'
+    white:   '0xFFFFFF'
 
   # Bright colors
   bright:
-    black:   '0x363B54'
-    red:     '0xFF5370'
-    green:   '0x1ABC9C'
-    yellow:  '0xFFDB69'
-    blue:    '0x7AA2F7'
-    magenta: '0x9D7CD8'
-    cyan:    '0x9ABDF5'
-    white:   '0xC0CAF5'
+    black:   '0x082626'
+    red:     '0xf8338A'
+    green:   '0x36FF99'
+    yellow:  '0xFEFE52'
+    blue:    '0x3F00FF'
+    magenta: '0x885AD7'
+    cyan:    '0x00F0FF'
+    white:   '0xFFFFFF'
 
   # Dim colors (Optional)
   dim:
-    black:   '0x363B54'
-    red:     '0xFF5370'
-    green:   '0x1ABC9C'
-    yellow:  '0xFFDB69'
-    blue:    '0x7AA2F7'
-    magenta: '0x9ABDF5'
-    cyan:    '0x0DB9D7'
-    white:   '0xC0CAF5'
+    black:   '0x082626'
+    red:     '0xf8338A'
+    green:   '0x36FF99'
+    yellow:  '0xFEFE52'
+    blue:    '0x3F00FF'
+    magenta: '0x885AD7'
+    cyan:    '0x00F0FF'
+    white:   '0xFFFFFF'
 
 # Bell
 #
@@ -247,50 +242,12 @@ bell:
   #     args: ["Hello, World!"]
   #
   command: None
-
-# Regex hints
+  
+# Background opacity
 #
-# Terminal hints can be used to find text in the visible part of the terminal
-# and pipe it to other applications.
-hints:
-  # Keys used for the hint labels.
-  alphabet: "jfkdls;ahgurieowpq"
-
-  # List with all available hints
-  #
-  # Each hint must have a `regex` and either an `action` or a `command` field.
-  # The fields `mouse`, `binding` and `post_processing` are optional.
-  #
-  # The fields `command`, `binding.key`, `binding.mods` and `mouse.mods` accept
-  # the same values as they do in the `key_bindings` section.
-  #
-  # The `mouse.enabled` field controls if the hint should be underlined while
-  # the mouse with all `mouse.mods` keys held or the vi mode cursor is above it.
-  #
-  # If the `post_processing` field is set to `true`, heuristics will be used to
-  # shorten the match if there are characters likely not to be part of the hint
-  # (e.g. a trailing `.`). This is most useful for URIs.
-  #
-  # Values for `action`:
-  #   - Copy
-  #       Copy the hint's text to the clipboard.
-  #   - Paste
-  #       Paste the hint's text to the terminal or search.
-  #   - Select
-  #       Select the hint's text.
-  #   - MoveViModeCursor
-  #       Move the vi mode cursor to the beginning of the hint.
-  enabled:
-   - regex: "(mailto:|gemini:|gopher:|https:|http:|news:|file:|git:|ssh:|ftp:)\
-             [^\u0000-\u001F\u007F-\u009F<>\"\\s{-}\\^⟨⟩`]+"
-     command: xdg-open
-     post_processing: true
-     mouse:
-       enabled: true
-       mods: None
-     binding:
-       key: U
-       mods: Control|Shift
+# Window opacity as a floating point number from `0.0` to `1.0`.
+# The value `0.0` is completely transparent and `1.0` is opaque.
+background_opacity: 1.0
 
 # Mouse bindings
 #
@@ -322,6 +279,18 @@ mouse:
   # If this is `true`, the cursor is temporarily hidden when typing.
   hide_when_typing: false
 
+  url:
+    # URL launcher
+    #
+    # This program is executed when clicking on a text which is recognized as a URL.
+    # The URL is always added to the command as the last parameter.
+    launcher: xdg-open
+
+    # URL modifiers
+    #
+    # These are the modifiers that need to be held down for opening URLs when clicking
+    # on them. The available modifiers are documented in the key binding section.
+    #modifiers: Control|Shift
 
 selection:
   semantic_escape_chars: ",│`|:\"' ()[]{}<>"
