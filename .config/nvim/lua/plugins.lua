@@ -26,10 +26,7 @@ return require("packer").startup(function(use)
 	-- Color buddy
 	use "tjdevries/colorbuddy.nvim"
 	-- Galaxyline
-	use {
-		"glepnir/galaxyline.nvim",
-		config = function() require("plugins/galaxyline") end
-	}
+	use "glepnir/galaxyline.nvim"
 	-- Telescope
 	use {
 		"nvim-telescope/telescope.nvim",
