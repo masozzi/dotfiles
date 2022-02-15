@@ -46,6 +46,9 @@ input "1133:16518:Logitech_G703_LS" {
 	pointer_accel -0.2
 }
 
+# Change cursor theme
+seat seat0 xcursor_theme Fuchsia
+
 #
 # Key bindings
 #
@@ -57,6 +60,7 @@ bindsym $mod+Shift+q exit
 bindsym $mod+Alt+l exec swaylock --image $HOME/Pictures/.wallpaper/wallpaper-locked.jpg --scaling fill
 bindsym $mod+p exec grim ~/Pictures/$(date +%Y%m%d%H%M%S).png
 bindsym $mod+Alt+p exec grim -g "$(slurp)" ~/Pictures/$(date +%Y%m%d%H%M%S).png
+bindsym $mod+n exec neovide
 bindsym $mod+d exec bemenu-run -i -w -n 1 -l 10 -p run -H 25 --fn "Codelia" \
 		--tb=#1A1B27 \
 		--tf=#7AA2F7 \
@@ -148,7 +152,7 @@ bindsym XF86AudioPrev exec mpc prev
 #
 # Graphics
 #
-font "Jetbrains Mono" 11
+font "Codelia" 11
 title_align center
 
 # Borders
