@@ -9,6 +9,9 @@ map("n", "<A-1>", "<Esc>:NvimTreeToggle<CR>", options)
 map("n", "<A-l>", "<Esc>gt", options)
 map("n", "<A-h>", "<Esc>gT", options)
 map("n", "<C-P>", "<Esc>:TSH<CR>", options)
+-- map("n", "<A-Enter>", "<Cmd>lua require('utils').print_diagnostics()<CR>", options)
+map("n", "<A-Enter>", "<Cmd>lua vim.diagnostic.open_float(nil, {focus=false, scope='cursor'})<CR>", options)
+map("n", "<C-B>", "<Cmd>lua vim.lsp.buf.definition()<CR>", options)
 
 -- Telescope keybind
 map("n", "<Leader>ff", "<Cmd>lua require('telescope.builtin').find_files()<CR>", options)

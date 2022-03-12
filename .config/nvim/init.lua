@@ -11,6 +11,14 @@ vim.o.list = true
 vim.o.number = true
 vim.o.cursorline = true
 
+vim.diagnostic.config({
+	virtual_text = false,
+	signs = false,
+	underline = true,
+	update_in_inert = false,
+	severity_sort = true
+})
+
 vim.cmd [[ autocmd FileType * lua require("utils").hide_statusline()]]
 
 require("keymaps")
@@ -20,6 +28,7 @@ require("plugins")
 require("plugins/closetag")
 require("plugins/galaxyline")
 require("plugins/neovide")
+require("plugins/lsp")
 require("plugins/nvimtree")
 require("plugins/telescope")
 require("plugins/treesitter")

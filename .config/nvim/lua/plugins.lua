@@ -36,4 +36,6 @@ return require("packer").startup(function(use)
 	use {
 		"tomlion/vim-solidity"
 	}
+	-- Lsp
+	use "neovim/nvim-lspconfig"
 end)
