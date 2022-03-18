@@ -65,6 +65,8 @@ Color.new("white_light", utils.colors.white_light)
 Group.new("ColorColumn", nil, colors.black, style.NONE, nil, nil)
 Group.new("Normal", colors.white, colors.black_darker, style.NONE, nil, nil)
 Group.new("NonText", colors.black, nil, style.NONE, nil, nil)
+-- Pmenu
+Group.new("Pmenu", colors.white, colors.black_light, style.NONE, nil, nil)
 -- Statusline colors
 Group.new("StatusLinePrimary", colors.white, colors.black, style.NONE, nil, nil)
 Group.new("StatusLineSecondary", colors.white, colors.blue, style.NONE, nil, nil)
