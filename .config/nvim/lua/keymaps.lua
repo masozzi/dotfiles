@@ -5,7 +5,7 @@ local map = vim.api.nvim_set_keymap
 local fn = vim.fn
 
 options = { noremap = true }
-map("n", "<A-1>", "<Esc>:NvimTreeToggle<CR>", options)
+map("n", "<A-1>", "<Esc>:NvimTreeFocus<CR>", options)
 map("n", "<A-l>", "<Esc>gt", options)
 map("n", "<A-h>", "<Esc>gT", options)
 map("n", "<C-P>", "<Esc>:TSH<CR>", options)
