@@ -16,7 +16,9 @@ export PATH="$HOME/.cargo/bin:$PATH"
 export JAVA_HOME="/usr/lib/jvm/default"
 export _JAVA_OPTIONS="-Dawt.useSystemAAFontSettings=on -Dswing.aatext=true -Dsun.java2d.xrender=true"
 export EDITOR="nvim"
+
 export GOPATH="$HOME/.local/go"
+export GOPROXY="direct"
 
 export CC="clang"
 export CXX="clang++"
