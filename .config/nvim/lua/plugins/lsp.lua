@@ -1,7 +1,12 @@
 local lspconf = require("lspconfig")
 
+-- Go
 lspconf.gopls.setup{}
 
+-- C
+lspconf.clangd.setup{}
+
+-- Diagnostic configs
 vim.diagnostic.config({
 	virtual_text = false,
 	signs = false,
