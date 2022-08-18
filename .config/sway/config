@@ -61,15 +61,16 @@ bindsym $mod+Alt+l exec swaylock --image $HOME/Pictures/.wallpaper/wallpaper-loc
 bindsym $mod+p exec grim ~/Pictures/$(date +%Y%m%d%H%M%S).png
 bindsym $mod+Alt+p exec grim -g "$(slurp)" ~/Pictures/$(date +%Y%m%d%H%M%S).png
 bindsym $mod+n exec neovide
-bindsym $mod+d exec bemenu-run -i -w -n 1 -l 10 -p run -H 25 --fn "Codelia" \
-		--tb=#1A1B27 \
-		--tf=#7AA2F7 \
-		--fb=#16161F \
-		--ff=#7AA2F7 \
-		--nb=#16161F \
-		--nf=#7AA2F7 \
-		--hb=#363B54 \
-		--hf=#7AA2F7
+# bindsym $mod+d exec bemenu-run -i -w -n 1 -l 10 -p run -H 25 --fn "Codelia" \
+# 		--tb=#1A1B27 \
+# 		--tf=#7AA2F7 \
+# 		--fb=#16161F \
+# 		--ff=#7AA2F7 \
+# 		--nb=#16161F \
+# 		--nf=#7AA2F7 \
+# 		--hb=#363B54 \
+# 		--hf=#7AA2F7
+bindsym $mod+d exec rofi -show drun
 
 # Move the foucts
 bindsym $mod+$left focus left
