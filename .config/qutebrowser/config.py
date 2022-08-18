@@ -1,6 +1,7 @@
 # Do not load config changed from the GUI
 config.load_autoconfig(False)
 c.content.blocking.method = 'both'
+c.content.tls.certificate_errors = 'ask-block-thirdparty'
 
 #
 # Colors
