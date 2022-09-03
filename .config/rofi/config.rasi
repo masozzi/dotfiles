@@ -1,0 +1,6 @@
+configuration {
+	modes: "run";
+	font: "Codelia 12";
+}
+
+@theme "nord"
