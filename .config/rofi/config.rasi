@@ -1,5 +1,5 @@
 configuration {
-	modes: "run";
+	modes: "run,drun";
 	font: "Codelia 12";
 }
 
