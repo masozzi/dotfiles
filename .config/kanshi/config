@@ -1,9 +1,15 @@
-{
+profile Battlestation {
 	output DP-1 position 1080,450
 	output DP-2 position 0,0 transform 90
 }
 
-{
+profile Dual {
 	output eDP-1 position 0,1080
 	output DP-1 position 0,0
+}
+
+profile Triple {
+	output eDP-1 position 960,1080
+	output "Philips Consumer Electronics Company PHL 241B7Q UHB1809011121" position 1920,0
+	output "Philips Consumer Electronics Company PHL 242B1 UK02148038903" position 0,0
 }
