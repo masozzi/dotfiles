@@ -2,8 +2,6 @@ return require("packer").startup(function(use)
 	-- Plugin manager
 	use "wbthomason/packer.nvim"
 
-	-- NerdTree
-	-- "scrooloose/nerdtree";
 	-- Nvim Tree (should replace NerdTree)
 	use {
 		"kyazdani42/nvim-tree.lua",
@@ -21,10 +19,10 @@ return require("packer").startup(function(use)
 	use "fatih/vim-go"
 	-- Treesitter helper
 	use "nvim-treesitter/nvim-treesitter"
+	-- Colorscheme Nord
+	use "shaunsingh/nord.nvim"
 	-- Treesitter playground
 	use "nvim-treesitter/playground"
-	-- Color buddy
-	use "tjdevries/colorbuddy.nvim"
 	-- Galaxyline
 	use "glepnir/galaxyline.nvim"
 	-- Telescope
@@ -38,4 +36,13 @@ return require("packer").startup(function(use)
 	}
 	-- Lsp
 	use "neovim/nvim-lspconfig"
+
+	--
+	-- Autocompletion
+	--
+	use "hrsh7th/nvim-cmp"
+	use "hrsh7th/cmp-nvim-lsp"
+	use "L3MON4D3/LuaSnip"
+	use "saadparwaiz1/cmp_luasnip"
+	
 end)

@@ -2,7 +2,7 @@
 -- Vim init file --
 --               --
 vim.o.completeopt = "menu"
-vim.o.guifont = "Codelia:h11"
+vim.o.guifont = "Codelia:style=regular:h11"
 vim.o.showcmd = false
 vim.o.showmode = false
 vim.g.mapleader = " " -- setting <Leader> as space
@@ -28,10 +28,11 @@ require("plugins")
 require("plugins/closetag")
 require("plugins/galaxyline")
 require("plugins/neovide")
+require("plugins/autocompletion")
 require("plugins/lsp")
 require("plugins/nvimtree")
 require("plugins/telescope")
 require("plugins/treesitter")
 
 -- Color scheme
-require("custom")
+vim.cmd[[colorscheme nord]]

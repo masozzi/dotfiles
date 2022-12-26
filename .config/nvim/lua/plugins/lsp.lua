@@ -1,10 +1,18 @@
 local lspconf = require("lspconfig")
+local cmp_capabilities = require("cmp_nvim_lsp").default_capabilities()
 
 -- Go
-lspconf.gopls.setup{}
+lspconf.gopls.setup{
+	capabilities = cmp_capabilities
+}
 
 -- C
-lspconf.clangd.setup{}
+lspconf.ccls.setup{
+	capabilities = cmp_capabilities,
+	init_options = {
+		compilationDatabaseDirectory = "build";
+	}
+}
 
 -- Diagnostic configs
 vim.diagnostic.config({
