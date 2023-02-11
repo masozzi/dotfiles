@@ -1,0 +1,28 @@
+theme = "nord"
+
+[editor]
+cursorline = true
+middle-click-paste = false
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+
+[editor.file-picker]
+hidden = false
+
+[editor.statusline]
+mode.normal = "NORMAL"
+mode.insert = "INSERT"
+mode.select = "SELECT"
+
+[editor.whitespace.render]
+space = "all"
+tab = "all"
+newline = "none"
+nbsp = "none"
+tabpad = "none"
+
+[editor.whitespace.characters]
+space = "·"
+tab = "→"
