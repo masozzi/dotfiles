@@ -25,6 +25,7 @@ alias pacman='pacman --color=always'
 alias doas='doas '
 alias sudo='sudo '
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.local/dotfiles/ --work-tree=$HOME'
+alias hx='helix'
 
 # Git prompt
 [[ -f /usr/share/git/completion/git-prompt.sh ]] && source /usr/share/git/completion/git-prompt.sh
