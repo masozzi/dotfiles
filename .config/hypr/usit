@@ -1,0 +1,16 @@
+ default partial alphanumeric_keys
+ xkb_symbols "basic" {
+
+    name[Group1]= "US AltGr English + it";
+
+    include "us(altgr-intl)"
+
+	// my custom changes:
+    key <AE12> { [equal,       plus,      igrave, igrave] };
+    key <AD11> { [bracketleft, braceleft, egrave, egrave] };
+    key <AC10> { [semicolon,   colon,     ograve, ograve] };
+    key <AC11> { [apostrophe,  quotedbl,  agrave, agrave] };
+    key <BKSL> { [backslash,   bar,       ugrave, ugrave] };
+
+    include "level3(ralt_switch)"
+ };
