@@ -3,24 +3,20 @@
     "output": "DP-2",
     "position": "top",
     "height": 25,
-    "modules-left": ["sway/workspaces", "sway/mode"],
+    "modules-left": ["hyprland/workspaces"],
     "modules-center": ["clock"],
     "modules-right": ["tray", "idle_inhibitor", "pulseaudio", "network", "cpu", "memory"],
-    "sway/workspaces": {
+    "hyprland/workspaces": {
         "disable-scroll": true,
         "disable-bar-scroll": true,
         "all-outputs": true,
-        "format": "{name}",
+        "format": "{id}",
         "persistent_workspaces": {
         	"1": [],
         	"2": [],
         	"3": [],
         	"4": []
         }
-    },
-    "sway/mode": {
-    	"format": "{}",
-    	"tooltip": false
     },
     "clock": {
     	"format": "{:%Y/%m/%d %H:%M}"
