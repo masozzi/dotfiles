@@ -10,12 +10,10 @@
         "disable-scroll": true,
         "disable-bar-scroll": true,
         "all-outputs": true,
-        "format": "{id}",
-        "persistent_workspaces": {
-        	"1": [],
-        	"2": [],
-        	"3": [],
-        	"4": []
+        "show-special": true,
+        "format": "{name}",
+        "persistent-workspaces": {
+        	"*": [1, 2, 3, 4],
         }
     },
     "clock": {
