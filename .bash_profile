@@ -17,7 +17,7 @@ export PATH="$HOME/.cargo/bin:$PATH"
 export PATH="$PATH:/home/teo/.local/share/JetBrains/Toolbox/scripts"
 export JAVA_HOME="/usr/lib/jvm/default"
 export _JAVA_OPTIONS="-Dawt.useSystemAAFontSettings=on -Dswing.aatext=true -Dsun.java2d.xrender=true"
-export EDITOR="nvim"
+export EDITOR="helix"
 
 export GOPATH="$HOME/.local/go"
 export GOPROXY="direct"
