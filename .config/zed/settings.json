@@ -69,5 +69,8 @@
     "YAML": {
       "enable_language_server": false
     }
+  },
+  "file_finder": {
+    "modal_max_width": "medium"
   }
 }

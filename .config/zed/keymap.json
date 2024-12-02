@@ -8,15 +8,16 @@
 [
   {
     "context": "Workspace",
-    "bindings": {
-      // "shift shift": "file_finder::Toggle"
-    }
+    "bindings": {}
   },
   {
     "context": "Editor && vim_mode == normal",
     "bindings": {
-      // "j k": ["workspace::SendKeystrokes", "escape"]
-      "space f": "file_finder::Toggle"
+      "t": "zed::NoAction",
+      "space f": "file_finder::Toggle",
+      "space k": "editor::Hover",
+      "space t": "terminal_panel::ToggleFocus",
+      "g l": "vim::EndOfLine"
     }
   }
 ]
